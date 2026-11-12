@@ -1,0 +1,618 @@
+.home-hero {
+  height: 915px;
+  position: relative;
+  overflow: hidden;
+  background: #592b13;
+}
+
+.hero-background {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.home-hero>.hero-background {
+  top: -14px;
+  height: 973px;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.hero-shade {
+  position: absolute;
+  inset: 128px 0 0;
+  background: linear-gradient(180deg,transparent 20.2%,#ad3303 116.8%);
+}
+
+.hero-content {
+  position: relative;
+  padding-top: 248px;
+  text-align: center;
+  color: #f8f3e9;
+  margin: auto;
+  width: min(100% - 40px,1000px);
+}
+
+.hero-mark {
+  width: 46px;
+  height: 38px;
+  overflow: hidden;
+  margin: 0 auto 12px;
+}
+
+.hero-mark img {
+  width: 79px;
+  max-width: none;
+  height: 59px;
+  object-fit: fill;
+  transform: translateX(-16px);
+}
+
+.hero-content h1 {
+  font-size: 76px;
+  line-height: 1.05;
+  letter-spacing: -1.52px;
+}
+
+.hero-content h1 span,.page-hero h1 span {
+  color: var(--yellow);
+}
+
+.hero-content>p {
+  max-width: 638px;
+  margin: 24px auto 0;
+  font-size: 17px;
+  line-height: 28.9px;
+  font-weight: 700;
+  color: rgba(248,243,233,.74);
+}
+
+.hero-content .hero-tagline {
+  color: var(--yellow);
+  font-size: 10px;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+  line-height: 17px;
+  margin-top: 26px;
+}
+
+.hero-content .button-row {
+  justify-content: center;
+  margin-top: 26px;
+}
+
+.meeting-section {
+  position: relative;
+  height: 332px;
+  padding-top: 1px;
+}
+
+.meeting-card {
+  position: relative;
+  margin: -107px auto 0;
+  background: #000;
+  border-radius: 24px;
+  overflow: hidden;
+  width: min(1159px,calc(100% - 80px));
+  height: 366px;
+  color: #f8f3e9;
+}
+
+.meeting-watermark {
+  position: absolute;
+  left: -179px;
+  top: 37px;
+  width: 512px;
+  height: 512px;
+  max-width: none;
+  opacity: .1;
+}
+
+.meeting-photo {
+  position: absolute;
+  width: 459px;
+  height: 505px;
+  right: -10px;
+  top: -50px;
+  overflow: hidden;
+}
+
+.meeting-photo>img {
+  width: 100%;
+  height: 688px;
+  max-width: none;
+  position: absolute;
+  top: -60px;
+}
+
+.meeting-photo:after {
+  position: absolute;
+  inset: 0;
+  content: '';
+  background: linear-gradient(270deg,transparent 14%,#0008 50%,#000 86%);
+}
+
+.meeting-content {
+  position: relative;
+  padding: 55px 84px;
+}
+
+.meeting-content h2 {
+  font-size: 42px;
+  margin: 33px 0 7px;
+  white-space: nowrap;
+}
+
+.meeting-content h2 span {
+  color: var(--yellow);
+}
+
+.meeting-date {
+  font-size: 18px;
+  color: #f8f3e99e;
+}
+
+.countdown {
+  display: flex;
+  gap: 8px;
+  margin-top: 29px;
+}
+
+.countdown>div {
+  width: 67px;
+  height: 90px;
+  background: #120e04;
+  border: 1.2px solid #f8f3e917;
+  border-radius: 12px;
+  text-align: center;
+  padding: 14px 4px 9px;
+}
+
+.countdown strong {
+  display: block;
+  color: var(--yellow);
+  font: italic 900 26px var(--heading);
+}
+
+.countdown span {
+  display: block;
+  margin-top: 8px;
+  font-size: 9.5px;
+  letter-spacing: 1.24px;
+  text-transform: uppercase;
+  color: #f8f3e98c;
+}
+
+.sessions-section {
+  height: 724px;
+  background: var(--cream);
+  padding-top: 30px;
+}
+
+.sessions-section .section-topline {
+  min-height: 196px;
+}
+
+.session-cards {
+  display: grid;
+  grid-template-columns: repeat(4,minmax(0,1fr));
+  gap: 45px;
+  margin-top: 16px;
+}
+
+.session-card {
+  position: relative;
+  height: 322px;
+  border-radius: 10px;
+  overflow: hidden;
+  color: white;
+}
+
+.session-card-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform .3s;
+}
+
+.session-card:after {
+  position: absolute;
+  inset: 0;
+  content: '';
+  background: linear-gradient(179.9deg,transparent,#df5903e6 78%);
+}
+
+.session-card:hover .session-card-photo {
+  transform: scale(1.04);
+}
+
+.session-day {
+  position: absolute;
+  right: 24px;
+  top: 25px;
+  z-index: 1;
+  font-size: 9px;
+  letter-spacing: 1.44px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.session-card-title {
+  position: absolute;
+  z-index: 1;
+  bottom: 24px;
+  left: 22px;
+  right: 15px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.session-card-title h3 {
+  font-size: 23px;
+  flex: 1;
+}
+
+.session-card-title img {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+.about-section {
+  margin-top: 16px;
+  min-height: 913px;
+  padding: 60px 0 75px;
+}
+
+.about-container {
+  width: min(1142px,calc(100% - 80px));
+  margin: auto;
+  display: grid;
+  grid-template-columns: 564px 420px;
+  align-items: center;
+  gap: 90px;
+}
+
+.about-copy h2 {
+  font-size: 57px;
+  line-height: 1.05;
+  width: 491px;
+  max-width: 100%;
+  margin: 22px 0 0;
+}
+
+.about-copy>p:not(.eyebrow) {
+  font-size: 16px;
+  line-height: 27.2px;
+  max-width: 491px;
+  color: var(--muted);
+}
+
+.about-copy blockquote {
+  border-left: 2px solid var(--orange);
+  padding-left: 23px;
+  margin: 32px 0;
+  font: italic 24px/1.45 Georgia,serif;
+  max-width: 491px;
+}
+
+.about-copy .button {
+  min-width: 221px;
+}
+
+.values {
+  display: flex;
+  gap: 30px;
+  margin-top: 36px;
+  font-size: 9px;
+  color: #6f8479;
+  letter-spacing: 1.53px;
+  text-transform: uppercase;
+}
+
+.minister-figure {
+  position: relative;
+  align-self: center;
+  margin-top: -30px;
+}
+
+.minister-figure:before {
+  position: absolute;
+  content: '';
+  width: 90px;
+  height: 90px;
+  top: -20px;
+  right: -20px;
+  border-right: 1px solid #df59037d;
+  border-top: 1px solid #df59037d;
+  border-radius: 0 12px 0 0;
+}
+
+.minister-figure>img {
+  width: 420px;
+  height: 525px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.minister-figure figcaption {
+  position: absolute;
+  right: -34px;
+  bottom: -31px;
+  background: #fffdf8;
+  border-radius: 14px;
+  padding: 21px 25px;
+  width: 305px;
+  box-shadow: 0 8px 25px #0001;
+}
+
+.minister-figure figcaption strong {
+  font: italic 900 20px var(--heading);
+}
+
+.minister-figure figcaption span {
+  display: block;
+  color: var(--orange);
+  font-size: 13px;
+  margin-top: 8px;
+}
+
+.movements-section {
+  margin-top: 16px;
+  min-height: 666px;
+  padding: 110px 0;
+  background: #f8f3e9;
+}
+
+.movements-section .section-heading h2 {
+  font-size: 53px;
+}
+
+.movements-section .section-heading>p:last-child {
+  font-size: 18px;
+}
+
+.movements-grid {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  margin-top: 57px;
+  border-top: 1px solid #08130f1a;
+  padding-top: 39px;
+}
+
+.movements-grid article {
+  padding-right: 32px;
+  margin-right: 30px;
+  border-right: 1px solid #08130f1a;
+}
+
+.movements-grid article:last-child {
+  border: 0;
+  margin-right: 0;
+}
+
+.movement-number {
+  display: block;
+  font: 32px Georgia,serif;
+  color: var(--orange);
+  margin-bottom: 12px;
+}
+
+.movements-grid h3 {
+  font-size: 26px;
+}
+
+.movements-grid p {
+  font-size: 16px;
+  line-height: 27.4px;
+  color: var(--muted);
+}
+
+.explore-link {
+  display: flex;
+  gap: 18px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1.26px;
+  text-transform: uppercase;
+  margin-top: 7px;
+}
+
+.explore-link span {
+  color: var(--orange);
+}
+
+.conference-section {
+  margin-top: 16px;
+  padding: 70px 0;
+  min-height: 696px;
+}
+
+.conference-card {
+  position: relative;
+  border-radius: 32px;
+  overflow: hidden;
+  min-height: 556px;
+  padding: 80px;
+}
+
+.cover-image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.conference-shade {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg,#08130ff5,#08130fa3);
+}
+
+.conference-content {
+  position: relative;
+  max-width: 745px;
+  color: #f8f3e9;
+}
+
+.conference-content h2 {
+  font-size: 66px;
+  margin-top: 25px;
+}
+
+.conference-content>p:not(.eyebrow) {
+  font-size: 19.5px;
+  line-height: 33px;
+  color: #f8f3e9b3;
+}
+
+.conference-content em {
+  color: var(--yellow);
+}
+
+.event-meta {
+  display: flex;
+  gap: 28px;
+  flex-wrap: wrap;
+  font-size: 10px;
+  letter-spacing: 1.65px;
+  text-transform: uppercase;
+  color: #f0e2bd;
+  margin-top: 34px;
+}
+
+.conference-content .button-row {
+  margin-top: 34px;
+}
+
+.giving-section {
+  position: relative;
+  min-height: 708px;
+  background: #000;
+  overflow: hidden;
+  color: #f8f3e9;
+  margin-top: 16px;
+}
+
+.giving-image {
+  position: absolute;
+  left: 32.3%;
+  top: 0;
+  width: 77.7%;
+  height: 839px;
+  object-fit: cover;
+  max-width: none;
+}
+
+.giving-shade {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(88deg,#000 33%,transparent 96%);
+}
+
+.giving-content {
+  position: relative;
+  padding-top: 162px;
+  padding-bottom: 100px;
+}
+
+.giving-content h2 {
+  font-size: 60px;
+  line-height: 1;
+  margin-top: 25px;
+}
+
+.giving-content h2 span {
+  color: var(--yellow);
+}
+
+.giving-content>p:not(.eyebrow) {
+  max-width: 639px;
+  font-size: 19.5px;
+  line-height: 33px;
+  color: #f8f3e9b3;
+  margin-top: 27px;
+}
+
+.giving-content .button {
+  min-width: 221px;
+  margin-top: 34px;
+}
+
+.testimonies-section {
+  margin-top: 16px;
+  min-height: 754px;
+  padding: 110px 0;
+  background: var(--cream);
+}
+
+.testimonies-section .section-heading h2 {
+  font-size: 53px;
+}
+
+.testimonies-section .section-topline {
+  align-items: flex-end;
+  min-height: 153px;
+  margin-bottom: 56px;
+}
+
+.testimony-grid {
+  display: grid;
+  grid-template-columns: repeat(3,minmax(0,1fr));
+  gap: 24px;
+}
+
+.testimony-card {
+  background: #fffdf8;
+  border: 1px solid #08130f1a;
+  border-radius: 23px;
+  padding: 30px;
+}
+
+.testimony-card blockquote {
+  font-size: 21.75px;
+  line-height: 33.7px;
+}
+
+.quote-line {
+  width: 41px;
+  height: 1px;
+  background: #c19a3c;
+  margin: 27px 0;
+}
+
+.testimony-card figcaption {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  align-items: center;
+}
+
+.testimony-card figcaption strong {
+  display: block;
+  font: italic 900 11.5px/19px var(--heading);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.testimony-card figcaption div>span {
+  display: block;
+  font-size: 11.5px;
+  line-height: 19px;
+  letter-spacing: 1px;
+  color: #6f8479;
+}
+
+.testimony-category {
+  border: 1px solid #08130f1a;
+  border-radius: 100px;
+  padding: 6px 10px;
+  text-transform: uppercase;
+  font-size: 9px;
+  white-space: nowrap;
+}
+

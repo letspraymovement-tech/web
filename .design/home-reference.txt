@@ -1,0 +1,1090 @@
+const imgImage9 = "https://www.figma.com/api/mcp/asset/37a06d48-cd44-46d8-92ec-f18248567cbf.png";
+const imgLetsPrayMovementLogo2 = "https://www.figma.com/api/mcp/asset/4d4b01c6-2305-4c56-ae37-71eadb7e308f.png";
+const imgWhatsApp = "https://www.figma.com/api/mcp/asset/15740fde-1f71-4651-8c3e-f7faf9e74bcc.png";
+const imgImage7 = "https://www.figma.com/api/mcp/asset/9825de2f-f780-476a-acb7-de44a7ff7d16.png";
+const imgFrame9 = "https://www.figma.com/api/mcp/asset/b0949d13-fe3c-48a7-83b6-aa12852e210b.png";
+const imgFrame13 = "https://www.figma.com/api/mcp/asset/b5842aa6-c34c-447a-9f84-19961c915ad6.png";
+const imgFrame14 = "https://www.figma.com/api/mcp/asset/976aa87d-c848-4b6f-acbe-2259c3d26dfe.png";
+const imgFrame15 = "https://www.figma.com/api/mcp/asset/7620628c-7eee-4062-872f-db06809e536f.png";
+const imgImageHandsRestingOnAnOpenBibleInPrayer = "https://www.figma.com/api/mcp/asset/a81bf5fb-e03f-405a-ad07-0f469ae07532.png";
+const imgContainer = "https://www.figma.com/api/mcp/asset/8ba7e5f6-2c27-44be-b17e-4b803f977a3f.png";
+const imgImage8 = "https://www.figma.com/api/mcp/asset/790a646a-7f6c-47b5-b8d0-02de78234d44.png";
+const imgTexture = "https://www.figma.com/api/mcp/asset/a19ce0cd-ea0d-430a-8472-f5e91eed0d1c.png";
+const imgCiArrowUpRightMd = "https://www.figma.com/api/mcp/asset/772dbb7d-08a1-4738-9fa9-446ee8480397.svg";
+const imgChess = "https://www.figma.com/api/mcp/asset/73eae2f3-0875-4a2a-b3e6-c1c55acb06f9.svg";
+const imgChess1 = "https://www.figma.com/api/mcp/asset/cc7e9f51-11d1-4dc1-beac-d92b32b67d27.svg";
+const imgAntDesignInstagramFilled = "https://www.figma.com/api/mcp/asset/4712640b-ccb6-453d-8418-f698c2131a7f.svg";
+const imgBrandicoFacebookRect = "https://www.figma.com/api/mcp/asset/c47920ff-b4f6-416f-be73-a4905b84b653.svg";
+const imgAntDesignYoutubeFilled = "https://www.figma.com/api/mcp/asset/e6d0c099-39b9-427e-96f9-14e1d7f4126d.svg";
+const imgChevronUp = "https://www.figma.com/api/mcp/asset/233d57f0-0078-4009-a882-7b000727b5c8.svg";
+
+export default function Desktop2() {
+  return (
+    <div className="bg-white relative size-full" data-node-id="26:5" data-name="Desktop - 2">
+      <div className="absolute contents left-0 top-0" data-node-id="48:607">
+        <div className="absolute content-stretch flex flex-col gap-[10px] h-[915.092px] items-start left-0 pb-[219px] pt-[270px] px-[269px] top-0 w-[1441px]" data-node-id="48:606">
+          <div className="absolute contents left-0 top-[-14px]" data-node-id="48:605">
+            <div className="absolute h-[929px] left-0 top-[-14px] w-[1460px]" data-node-id="78:29" data-name="image 9">
+              <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                <img alt="" className="absolute h-[104.74%] left-0 max-w-none top-0 w-full" src={imgImage9} />
+              </div>
+            </div>
+            <div className="-translate-x-1/2 absolute bg-gradient-to-b from-[20.207%] from-[rgba(0,0,0,0)] h-[787.092px] left-1/2 to-[#ad3303] to-[116.82%] top-[128px] w-[1441px]" data-node-id="26:70" data-name="Text">
+              <div className="-translate-x-1/2 -translate-y-1/2 absolute h-[38px] left-[calc(50%+0.5px)] top-[calc(50%-254.55px)] w-[46px]" data-node-id="37:424" data-name="Let’s Pray Movement logo 2">
+                <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                  <img alt="" className="absolute h-[155.26%] left-[-35.39%] max-w-none top-0 w-[171.78%]" src={imgLetsPrayMovementLogo2} />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-[1_0_0] flex-col items-center min-h-px relative w-[902px]" data-node-id="26:58" data-name="Container">
+            <div className="content-stretch flex flex-col h-[188px] items-center pt-[28px] relative shrink-0 w-[637.188px]" data-node-id="26:59" data-name="Heading 1">
+              <div className="[word-break:break-word] font-['Fraunces:Regular'] font-[450] leading-[0] not-italic relative shrink-0 text-[#f8f3e9] text-[0px] text-center tracking-[-1.52px] whitespace-nowrap" data-node-id="26:60" style={{ fontVariationSettings: '"SOFT" 0, "WONK" 1' }}>
+                <p className="font-['TacticSans-BlkIt:Italic'] leading-[79.8px] mb-0 text-[76px]">By All Means,</p>
+                <p className="font-['TacticSans-BlkIt:Italic'] leading-[79.8px] text-[#fbcc22] text-[76px]">Prayer Must Go On!</p>
+              </div>
+            </div>
+            <div className="content-stretch flex flex-col items-start pt-[24px] relative shrink-0" data-node-id="26:61" data-name="Paragraph:margin">
+              <p className="[word-break:break-word] font-['Segoe_UI:Bold'] leading-[28.9px] not-italic relative shrink-0 text-[17px] text-[rgba(248,243,233,0.74)] text-center w-[638px]" data-node-id="26:62">
+                We are a gathering of believers learning to understand the ministry of prayer by praying together, consistently, and with faith.
+              </p>
+            </div>
+            <div className="content-stretch flex flex-col h-[43px] items-start pt-[26px] relative shrink-0 w-[637.188px]" data-node-id="26:63" data-name="Small">
+              <p className="[word-break:break-word] font-['Segoe_UI:Bold'] leading-[17px] not-italic relative shrink-0 text-[#fbcc22] text-[10px] text-center tracking-[2.4px] uppercase w-[637px]" data-node-id="26:64">
+                Understanding the ministry of prayer by praying.
+              </p>
+            </div>
+            <div className="content-stretch flex gap-[12px] h-[75px] items-center justify-center pt-[26px] relative shrink-0 w-[637.188px]" data-node-id="26:65" data-name="Container">
+              <div className="bg-[#fbcc22] border-[#fbcc22] border-[1.553px] border-solid content-stretch flex h-[49px] items-center justify-center px-[24.854px] py-[17.087px] relative rounded-[7.767px] shrink-0 w-[221px]" data-node-id="26:66" data-name="Button">
+                <p className="[word-break:break-word] font-['Segoe_UI:Bold'] leading-[20.4px] not-italic relative shrink-0 text-[#08130f] text-[12px] tracking-[0.54px] uppercase whitespace-nowrap" data-node-id="26:67">{`Join This Week's Prayer`}</p>
+              </div>
+              <div className="border-[1.553px] border-solid border-white content-stretch flex h-[49px] items-center justify-center px-[24.854px] py-[17.087px] relative rounded-[7.767px] shrink-0 w-[216px]" data-node-id="26:68" data-name="Button">
+                <p className="[word-break:break-word] font-['Segoe_UI:Bold'] leading-[20.4px] not-italic relative shrink-0 text-[#f8f3e9] text-[12px] tracking-[0.54px] uppercase whitespace-nowrap" data-node-id="26:69">
+                  Send a Prayer Request
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="absolute bg-black h-[366px] left-[149px] overflow-clip rounded-[24px] top-[809px] w-[1159px]" data-node-id="32:163">
+          <div className="absolute left-[-179px] opacity-10 size-[512px] top-[37px]" data-node-id="33:378" data-name="WhatsApp">
+            <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgWhatsApp} />
+          </div>
+          <div className="absolute h-[508px] left-[710px] overflow-clip top-[-53px] w-[461px]" data-node-id="32:164">
+            <div className="absolute h-[505px] left-[2px] top-[3px] w-[459px]" data-node-id="32:165" data-name="image 7">
+              <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                <img alt="" className="absolute h-[136.36%] left-0 max-w-none top-[-11.83%] w-full" src={imgImage7} />
+              </div>
+            </div>
+            <div className="-translate-x-1/2 absolute h-[505px] left-[calc(50%+1px)] top-[3px] w-[459px]" data-node-id="32:166" style={{ backgroundImage: "linear-gradient(269.94083595709606deg, rgba(0, 0, 0, 0) 14.029%, rgba(0, 0, 0, 0.5) 49.932%, rgb(0, 0, 0) 85.834%)" }} data-name="Text" />
+          </div>
+          <div className="-translate-y-1/2 absolute content-stretch flex flex-col items-start left-[84px] top-[calc(50%+0.05px)] w-[418px]" data-node-id="32:198">
+            <div className="content-stretch flex gap-[12px] h-[19px] items-center relative shrink-0 w-full" data-node-id="32:168" data-name="Eyebrow">
+              <div className="bg-[#fbcc22] h-px relative shrink-0 w-[28px]" data-node-id="32:169" data-name="Text" />
+              <p className="[word-break:break-word] font-['Segoe_UI:Bold'] leading-[18.7px] not-italic relative shrink-0 text-[#fbcc22] text-[11px] tracking-[2.64px] uppercase whitespace-nowrap" data-node-id="32:170">
+                Next meeting
+              </p>
+            </div>
+            <div className="content-stretch flex flex-col items-start relative shrink-0 w-[369px]" data-node-id="32:197">
+              <div className="content-stretch flex flex-col items-start pt-[33.16px] relative shrink-0 w-full" data-node-id="32:171" data-name="Heading 3">
+                <p className="[word-break:break-word] font-['TacticSans-BlkIt:Italic'] leading-[0] not-italic relative shrink-0 text-[#f8f3e9] text-[42.204px] tracking-[-0.8441px] w-[536px]" data-node-id="32:172">
+                  <span className="leading-[44.314px] text-[#fbcc22]">{`Monday `}</span>
+                  <span className="leading-[44.314px]">Prayer Meeting</span>
+                </p>
+              </div>
+              <div className="content-stretch flex flex-col items-start pt-[7.536px] relative shrink-0 w-full" data-node-id="32:173" data-name="Paragraph">
+                <p className="[word-break:break-word] font-['Segoe_UI:Regular'] leading-[30.748px] not-italic relative shrink-0 text-[18.087px] text-[rgba(248,243,233,0.62)] w-[369.283px]" data-node-id="32:174">
+                  Monday, 01 December · 11 PM – 12 AM (WAT)
+                </p>
+              </div>
+            </div>
+            <div className="content-stretch flex flex-col items-start pt-[29.796px] relative shrink-0 w-[292px]" data-node-id="32:175" data-name="Countdown:margin">
+              <div className="gap-x-[8.342857360839844px] gap-y-[8.342857360839844px] grid grid-cols-[____66.69px_66.69px_66.69px_66.69px] grid-rows-[_89.61px] relative shrink-0 w-full" data-node-id="32:176" data-name="Countdown">
+                <div className="bg-[#120e04] border-[1.192px] border-[rgba(248,243,233,0.09)] border-solid col-1 content-stretch flex flex-col items-start justify-self-stretch pb-[9.535px] pt-[14.302px] px-[4.767px] relative rounded-[11.918px] row-1 self-stretch shrink-0" data-node-id="32:177" data-name="Container">
+                  <div className="content-stretch flex flex-col items-center relative shrink-0 w-full" data-node-id="32:178" data-name="Bold Text">
+                    <p className="[word-break:break-word] font-['TacticSans-BlkIt:Italic'] leading-[normal] not-italic relative shrink-0 text-[#fbcc22] text-[26.22px] text-center whitespace-nowrap" data-node-id="32:179">
+                      3
+                    </p>
+                  </div>
+                  <div className="h-[32.403px] relative shrink-0 w-full" data-node-id="32:180" data-name="Container">
+                    <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Segoe_UI:Bold'] leading-[16.209px] left-[27.58px] not-italic text-[9.535px] text-[rgba(248,243,233,0.55)] text-center top-[8.34px] tracking-[1.2395px] uppercase whitespace-nowrap" data-node-id="32:181">
+                      Days
+                    </p>
+                  </div>
+                </div>
+                <div className="bg-[#120e04] border-[1.192px] border-[rgba(248,243,233,0.09)] border-solid col-2 content-stretch flex flex-col items-start justify-self-stretch pb-[9.535px] pt-[14.302px] px-[4.767px] relative rounded-[11.918px] row-1 self-stretch shrink-0" data-node-id="32:182" data-name="Container">
+                  <div className="content-stretch flex flex-col items-center relative shrink-0 w-full" data-node-id="32:183" data-name="Bold Text">
+                    <p className="[word-break:break-word] font-['TacticSans-BlkIt:Italic'] leading-[normal] not-italic relative shrink-0 text-[#fbcc22] text-[26.22px] text-center whitespace-nowrap" data-node-id="32:184">
+                      02
+                    </p>
+                  </div>
+                  <div className="h-[32.403px] relative shrink-0 w-full" data-node-id="32:185" data-name="Container">
+                    <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Segoe_UI:Bold'] leading-[16.209px] left-[28.04px] not-italic text-[9.535px] text-[rgba(248,243,233,0.55)] text-center top-[8.34px] tracking-[1.2395px] uppercase whitespace-nowrap" data-node-id="32:186">
+                      Hrs
+                    </p>
+                  </div>
+                </div>
+                <div className="bg-[#120e04] border-[1.192px] border-[rgba(248,243,233,0.09)] border-solid col-3 content-stretch flex flex-col items-start justify-self-stretch pb-[9.535px] pt-[14.302px] px-[4.767px] relative rounded-[11.918px] row-1 self-stretch shrink-0" data-node-id="32:187" data-name="Container">
+                  <div className="content-stretch flex flex-col items-center relative shrink-0 w-full" data-node-id="32:188" data-name="Bold Text">
+                    <p className="[word-break:break-word] font-['TacticSans-BlkIt:Italic'] leading-[normal] not-italic relative shrink-0 text-[#fbcc22] text-[26.22px] text-center whitespace-nowrap" data-node-id="32:189">
+                      11
+                    </p>
+                  </div>
+                  <div className="h-[32.403px] relative shrink-0 w-full" data-node-id="32:190" data-name="Container">
+                    <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Segoe_UI:Bold'] leading-[16.209px] left-[26.83px] not-italic text-[9.535px] text-[rgba(248,243,233,0.55)] text-center top-[8.34px] tracking-[1.2395px] uppercase whitespace-nowrap" data-node-id="32:191">
+                      Min
+                    </p>
+                  </div>
+                </div>
+                <div className="bg-[#120e04] border-[1.192px] border-[rgba(248,243,233,0.09)] border-solid col-4 content-stretch flex flex-col items-start justify-self-stretch pb-[9.535px] pt-[14.302px] px-[4.767px] relative rounded-[11.918px] row-1 self-stretch shrink-0" data-node-id="32:192" data-name="Container">
+                  <div className="content-stretch flex flex-col items-center relative shrink-0 w-full" data-node-id="32:193" data-name="Bold Text">
+                    <p className="[word-break:break-word] font-['TacticSans-BlkIt:Italic'] leading-[normal] not-italic relative shrink-0 text-[#fbcc22] text-[26.22px] text-center whitespace-nowrap" data-node-id="32:194">
+                      40
+                    </p>
+                  </div>
+                  <div className="h-[32.403px] relative shrink-0 w-full" data-node-id="32:195" data-name="Container">
+                    <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Segoe_UI:Bold'] leading-[16.209px] left-[27.61px] not-italic text-[9.535px] text-[rgba(248,243,233,0.55)] text-center top-[8.34px] tracking-[1.2395px] uppercase whitespace-nowrap" data-node-id="32:196">
+                      Sec
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="-translate-x-1/2 absolute content-stretch flex flex-col gap-[16px] items-center left-[calc(50%+0.5px)] top-[1247px] w-[1441px]" data-node-id="48:608">
+        <div className="bg-[#fef9f2] h-[724px] overflow-clip relative shrink-0 w-full" data-node-id="32:216">
+          <div className="-translate-x-1/2 absolute content-stretch flex gap-[339px] h-[209px] items-center left-1/2 top-[17px] w-[1237px]" data-node-id="32:217" data-name="Container">
+            <div className="content-stretch flex flex-col items-start max-w-[720px] pb-[50px] relative shrink-0 w-[692.234px]" data-node-id="32:218" data-name="SectionHeading">
+              <div className="content-stretch flex gap-[12px] h-[18.688px] items-center relative shrink-0 w-full" data-node-id="32:219" data-name="Eyebrow">
+                <div className="bg-[#df5903] h-px relative shrink-0 w-[28px]" data-node-id="32:220" data-name="Text" />
+                <p className="[word-break:break-word] font-['Segoe_UI:Bold'] leading-[18.7px] not-italic relative shrink-0 text-[#df5903] text-[11px] tracking-[2.64px] uppercase whitespace-nowrap" data-node-id="32:221">
+                  The assignment
+                </p>
+              </div>
+              <div className="content-stretch flex flex-col h-[71px] items-start pt-[22px] relative shrink-0 w-[692.234px]" data-node-id="32:222" data-name="Heading 2">
+                <p className="[word-break:break-word] font-['TacticSans-BlkIt:Italic'] leading-[48.3px] not-italic relative shrink-0 text-[#08130f] text-[46px] tracking-[-0.92px] whitespace-nowrap" data-node-id="32:223">
+                  Four movements, one assignment.
+                </p>
+              </div>
+              <div className="content-stretch flex flex-col items-start pt-[16px] relative shrink-0" data-node-id="32:224" data-name="Paragraph:margin">
+                <p className="[word-break:break-word] font-['Segoe_UI:Regular'] leading-[27.2px] not-italic relative shrink-0 text-[16px] text-[rgba(8,19,15,0.68)] w-[746px]" data-node-id="32:225">
+                  Prayer forms a people. These are the rhythms through which we make room for that formation.
+                </p>
+              </div>
+            </div>
+            <div className="border border-[rgba(8,19,15,0.24)] border-solid content-stretch flex items-center justify-center px-[24px] py-[13px] relative rounded-[999px] shrink-0" data-node-id="32:226" data-name="Button">
+              <p className="[word-break:break-word] font-['Segoe_UI:Bold'] leading-[20.4px] not-italic relative shrink-0 text-[#08130f] text-[12px] tracking-[0.54px] uppercase whitespace-nowrap" data-node-id="32:227">
+                Discover our mission
+              </p>
+            </div>
+          </div>
+          <div className="absolute content-stretch flex gap-[45px] items-center left-[102px] top-[242px]" data-node-id="32:228">
+            <div className="h-[322px] overflow-clip relative rounded-[10px] shrink-0 w-[277px]" data-node-id="32:229">
+              <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[10px]">
+                <img alt="" className="absolute max-w-none object-cover rounded-[10px] size-full" src={imgFrame9} />
+                <div className="absolute inset-0 rounded-[10px]" style={{ backgroundImage: "linear-gradient(179.88540627677747deg, rgba(102, 102, 102, 0) 0%, rgba(223, 89, 3, 0.9) 77.593%)" }} />
+              </div>
+              <div className="absolute content-stretch flex h-[15px] items-start justify-between left-[24px] top-[25px] w-[229px]" data-node-id="32:231" data-name="Container">
+                <div className="content-stretch flex flex-col h-full items-start opacity-0 relative shrink-0" data-node-id="32:232" data-name="Text">
+                  <p className="[word-break:break-word] font-['Segoe_UI:Bold'] leading-[15.3px] not-italic relative shrink-0 text-[9px] text-white tracking-[1.44px] uppercase whitespace-nowrap" data-node-id="32:233">
+                    MONDAY
+                  </p>
+                </div>
+                <div className="content-stretch flex flex-col h-full items-start relative shrink-0" data-node-id="32:234" data-name="Text">
+                  <p className="[word-break:break-word] font-['Segoe_UI:Bold'] leading-[15.3px] not-italic relative shrink-0 text-[9px] text-white tracking-[1.44px] uppercase whitespace-nowrap" data-node-id="32:235">
+                    Monday
+                  </p>
+                </div>
+              </div>
+              <div className="-translate-x-1/2 absolute content-stretch flex gap-[14px] items-center left-1/2 top-[250px]" data-node-id="32:259">
+                <p className="[word-break:break-word] font-['TacticSans-BlkIt:Italic'] leading-[24.15px] not-italic relative shrink-0 text-[23px] text-white tracking-[-0.46px] w-[193px]" data-node-id="32:230">
+                  Online Intercession
+                </p>
+                <div className="relative shrink-0 size-[24px]" data-node-id="32:257" data-name="ci:arrow-up-right-md">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCiArrowUpRightMd} />
+                </div>
+              </div>
+            </div>
+            <div className="h-[322px] overflow-clip relative rounded-[10px] shrink-0 w-[277px]" data-node-id="32:236">
+              <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[10px]">
+                <img alt="" className="absolute max-w-none object-cover rounded-[10px] size-full" src={imgFrame13} />
+                <div className="absolute inset-0 rounded-[10px]" style={{ backgroundImage: "linear-gradient(179.88540627677747deg, rgba(102, 102, 102, 0) 0%, rgba(223, 89, 3, 0.9) 77.593%)" }} />
+              </div>
+              <div className="absolute content-stretch flex gap-[14px] items-center left-[22px] top-[255px]" data-node-id="33:275">
+                <p className="[word-break:break-word] font-['TacticSans-BlkIt:Italic'] leading-[24.15px] not-italic relative shrink-0 text-[23px] text-white tracking-[-0.46px] w-[193px]" data-node-id="33:280">
+                  Online Bible Teaching
+                </p>
+                <div className="relative shrink-0 size-[24px]" data-node-id="33:277" data-name="ci:arrow-up-right-md">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCiArrowUpRightMd} />
+                </div>
+              </div>
+              <div className="absolute content-stretch flex h-[15px] items-start justify-between left-[24px] top-[25px] w-[229px]" data-node-id="32:238" data-name="Container">
+                <div className="content-stretch flex flex-col h-full items-start relative shrink-0" data-node-id="32:239" data-name="Text">
+                  <p className="[word-break:break-word] font-['Segoe_UI:Bold'] leading-[15.3px] not-italic opacity-0 relative shrink-0 text-[9px] text-white tracking-[1.44px] uppercase whitespace-nowrap" data-node-id="32:240">
+                    Tuesday
+                  </p>
+                </div>
+                <div className="content-stretch flex flex-col h-full items-start relative shrink-0" data-node-id="32:241" data-name="Text">
+                  <p className="[word-break:break-word] font-['Segoe_UI:Bold'] leading-[15.3px] not-italic relative shrink-0 text-[9px] text-white tracking-[1.44px] uppercase whitespace-nowrap" data-node-id="32:242">
+                    Tuesday
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="h-[322px] overflow-clip relative rounded-[10px] shrink-0 w-[277px]" data-node-id="32:243">
+              <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[10px]">
+                <img alt="" className="absolute max-w-none object-cover rounded-[10px] size-full" src={imgFrame14} />
+                <div className="absolute inset-0 rounded-[10px]" style={{ backgroundImage: "linear-gradient(179.88540627677747deg, rgba(102, 102, 102, 0) 0%, rgba(223, 89, 3, 0.9) 77.593%)" }} />
+              </div>
+              <div className="absolute content-stretch flex gap-[14px] items-center left-[22px] top-[252px]" data-node-id="33:299">
+                <p className="[word-break:break-word] font-['TacticSans-BlkIt:Italic'] leading-[24.15px] not-italic relative shrink-0 text-[23px] text-white tracking-[-0.46px] w-[193px]" data-node-id="33:300">
+                  Online Bible Teaching
+                </p>
+                <div className="relative shrink-0 size-[24px]" data-node-id="33:301" data-name="ci:arrow-up-right-md">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCiArrowUpRightMd} />
+                </div>
+              </div>
+              <div className="absolute content-stretch flex h-[15px] items-start justify-between left-[24px] top-[25px] w-[229px]" data-node-id="32:245" data-name="Container">
+                <div className="h-full relative shrink-0 w-[75px]" data-node-id="32:246" data-name="Text" />
+                <div className="content-stretch flex flex-col h-full items-start relative shrink-0" data-node-id="32:248" data-name="Text">
+                  <p className="[word-break:break-word] font-['Segoe_UI:Bold'] leading-[15.3px] not-italic relative shrink-0 text-[9px] text-white tracking-[1.44px] uppercase whitespace-nowrap" data-node-id="32:249">
+                    WEEKLY
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="h-[322px] overflow-clip relative rounded-[10px] shrink-0 w-[277px]" data-node-id="32:250">
+              <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[10px]">
+                <img alt="" className="absolute max-w-none object-cover rounded-[10px] size-full" src={imgFrame15} />
+                <div className="absolute inset-0 rounded-[10px]" style={{ backgroundImage: "linear-gradient(179.88540627677747deg, rgba(102, 102, 102, 0) 0%, rgba(223, 89, 3, 0.9) 77.593%)" }} />
+              </div>
+              <div className="-translate-x-1/2 absolute content-stretch flex gap-[14px] items-center left-[calc(50%+0.5px)] top-[254px]" data-node-id="33:305">
+                <p className="[word-break:break-word] font-['TacticSans-BlkIt:Italic'] leading-[24.15px] not-italic relative shrink-0 text-[23px] text-white tracking-[-0.46px] w-[212px]" data-node-id="33:312">
+                  Monthly Physical Gathering
+                </p>
+                <div className="relative shrink-0 size-[24px]" data-node-id="33:307" data-name="ci:arrow-up-right-md">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCiArrowUpRightMd} />
+                </div>
+              </div>
+              <div className="absolute content-stretch flex h-[15px] items-start justify-between left-[24px] top-[25px] w-[229px]" data-node-id="33:316" data-name="Container">
+                <div className="h-full relative shrink-0 w-[75px]" data-node-id="33:317" data-name="Text" />
+                <div className="content-stretch flex flex-col h-full items-start relative shrink-0" data-node-id="33:318" data-name="Text">
+                  <p className="[word-break:break-word] font-['Segoe_UI:Bold'] leading-[15.3px] not-italic relative shrink-0 text-[9px] text-white tracking-[1.44px] uppercase whitespace-nowrap" data-node-id="33:319">
+                    Monthly
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="h-[913px] overflow-clip relative shrink-0 w-full" data-node-id="37:422">
+          <div className="absolute content-stretch flex flex-col items-center left-[110px] top-[60px] w-[1250px]" data-node-id="33:382" data-name="Container:margin">
+            <div className="gap-x-[90px] gap-y-[90px] grid grid-cols-[__490.34px_443.64px] grid-rows-[_763.50px] max-w-[1024px] relative shrink-0 w-[1024px]" data-node-id="33:383" data-name="Container">
+              <div className="col-1 content-stretch flex flex-col h-[764px] items-start justify-self-end relative row-1 self-center shrink-0 w-[564px]" data-node-id="33:384" data-name="Container">
+                <div className="content-stretch flex gap-[12px] h-[18.688px] items-center relative shrink-0 w-full" data-node-id="33:385" data-name="Eyebrow">
+                  <div className="bg-[#df5903] h-px relative shrink-0 w-[28px]" data-node-id="33:386" data-name="Text" />
+                  <p className="[word-break:break-word] font-['Segoe_UI:Bold'] leading-[18.7px] not-italic relative shrink-0 text-[#df5903] text-[11px] tracking-[2.64px] uppercase whitespace-nowrap" data-node-id="33:387">
+                    Who we are
+                  </p>
+                </div>
+                <div className="content-stretch flex flex-col items-start pt-[22px] relative shrink-0 w-[490.344px]" data-node-id="33:388" data-name="Heading 2">
+                  <p className="[word-break:break-word] font-['TacticSans-BlkIt:Italic'] leading-[59.85px] not-italic relative shrink-0 text-[#08130f] text-[57px] tracking-[-1.14px] w-[491px]" data-node-id="33:389">
+                    A gathering of believers who decided prayer would not be an afterthought.
+                  </p>
+                </div>
+                <div className="content-stretch flex flex-col items-start max-w-[600px] relative shrink-0 w-full" data-node-id="33:390" data-name="Paragraph">
+                  <p className="[word-break:break-word] font-['Segoe_UI:Regular'] leading-[27.2px] not-italic relative shrink-0 text-[16px] text-[rgba(8,19,15,0.68)] w-[491px]" data-node-id="33:391">{`Let's Pray is an interdenominational, apostolic and evangelistic prayer movement founded in Lagos, Nigeria. We exist to help believers build a life of prayer that is rooted in Scripture, alive to the Spirit and faithful in every season.`}</p>
+                </div>
+                <div className="content-stretch flex flex-col items-start max-w-[600px] relative shrink-0 w-full" data-node-id="33:392" data-name="Paragraph">
+                  <p className="[word-break:break-word] font-['Segoe_UI:Regular'] leading-[27.2px] not-italic relative shrink-0 text-[16px] text-[rgba(8,19,15,0.68)] w-[491px]" data-node-id="33:393">
+                    We do not gather around performance. We gather around the presence of God to intercede, learn, worship and be sent back into our homes, churches, schools and cities.
+                  </p>
+                </div>
+                <div className="content-stretch flex flex-col items-start py-[32px] relative shrink-0 w-full" data-node-id="33:394" data-name="Quote:margin">
+                  <div className="border-[#df5903] border-l-2 border-solid content-stretch flex flex-col items-start pl-[23px] relative shrink-0" data-node-id="33:395" data-name="Quote">
+                    <p className="[word-break:break-word] font-['Fraunces:Italic'] font-normal italic leading-[34.8px] relative shrink-0 text-[#08130f] text-[24px] w-[466px]" data-node-id="33:396" style={{ fontVariationSettings: '"SOFT" 0, "WONK" 1' }}>
+                      “Prayer is not the preparation for the work. Prayer is the work.”
+                    </p>
+                  </div>
+                </div>
+                <div className="h-[48.391px] relative shrink-0 w-full" data-node-id="33:397" data-name="Container">
+                  <div className="absolute bg-[#fbcc22] border-[#fbcc22] border-[1.553px] border-solid content-stretch flex h-[49px] items-center justify-center left-0 px-[24.854px] py-[17.087px] rounded-[7.767px] top-0 w-[221px]" data-node-id="37:419" data-name="Button">
+                    <p className="[word-break:break-word] font-['Segoe_UI:Bold'] leading-[20.4px] not-italic relative shrink-0 text-[#08130f] text-[12px] tracking-[0.54px] uppercase whitespace-nowrap" data-node-id="37:420">
+                      Learn more about us
+                    </p>
+                  </div>
+                </div>
+                <div className="content-stretch flex gap-[30px] h-[51.297px] items-start pt-[36px] relative shrink-0 w-[490.344px]" data-node-id="33:400" data-name="Container">
+                  <div className="content-stretch flex flex-col h-full items-start relative shrink-0" data-node-id="33:401" data-name="Text">
+                    <p className="[word-break:break-word] font-['Segoe_UI:Regular'] leading-[15.3px] not-italic relative shrink-0 text-[#6f8479] text-[9px] tracking-[1.53px] whitespace-nowrap" data-node-id="33:402">
+                      WORD-ROOTED
+                    </p>
+                  </div>
+                  <div className="content-stretch flex flex-col h-full items-start relative shrink-0" data-node-id="33:403" data-name="Text">
+                    <p className="[word-break:break-word] font-['Segoe_UI:Regular'] leading-[15.3px] not-italic relative shrink-0 text-[#6f8479] text-[9px] tracking-[1.53px] whitespace-nowrap" data-node-id="33:404">
+                      SPIRIT-LED
+                    </p>
+                  </div>
+                  <div className="content-stretch flex flex-col h-full items-start relative shrink-0" data-node-id="33:405" data-name="Text">
+                    <p className="[word-break:break-word] font-['Segoe_UI:Regular'] leading-[15.3px] not-italic relative shrink-0 text-[#6f8479] text-[9px] tracking-[1.53px] whitespace-nowrap" data-node-id="33:406">
+                      CHRIST-CENTRED
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-2 content-stretch flex flex-col h-[569.547px] items-start justify-self-stretch pb-[45px] pr-[24px] relative row-1 self-center shrink-0" data-node-id="33:407" data-name="Container">
+                <div className="h-[524.547px] relative rounded-[24px] shrink-0 w-full" data-node-id="33:408" data-name="Image (Hands resting on an open Bible in prayer)">
+                  <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[24px] size-full" src={imgImageHandsRestingOnAnOpenBibleInPrayer} />
+                </div>
+                <div className="absolute border-[#df5903] border-r border-solid border-t left-[348.64px] size-[90px] top-[-20px]" data-node-id="33:409" data-name="Text" />
+                <div className="absolute bg-[#fffdf8] border border-[rgba(8,19,15,0.1)] border-solid content-stretch drop-shadow-[0px_15px_22.5px_rgba(8,19,15,0.08)] flex flex-col items-start left-[148.66px] min-w-[280px] px-[24px] py-[20px] rounded-[16px] top-[462.02px] w-[305px]" data-node-id="33:410" data-name="Container">
+                  <div className="content-stretch flex flex-col items-start relative shrink-0 w-[255px]" data-node-id="37:423">
+                    <div className="content-stretch flex flex-col h-[30px] items-start pt-[5px] relative shrink-0 w-[254px]" data-node-id="33:413" data-name="Bold Text">
+                      <p className="[word-break:break-word] font-['TacticSans-BlkIt:Italic'] leading-[normal] not-italic relative shrink-0 text-[#08130f] text-[18px] whitespace-nowrap" data-node-id="33:414">
+                        Minister Ochu Ikechukwu
+                      </p>
+                    </div>
+                    <div className="content-stretch flex flex-col h-[21px] items-start pt-[5px] relative shrink-0 w-[245.438px]" data-node-id="33:415" data-name="Text">
+                      <p className="[word-break:break-word] font-['Segoe_UI:Bold'] leading-[15.3px] not-italic relative shrink-0 text-[#df5903] text-[9px] tracking-[1.08px] uppercase whitespace-nowrap" data-node-id="33:416">
+                        Our set man
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="bg-[#f8f3e9] content-stretch flex flex-col items-start py-[110.592px] relative shrink-0 w-full" data-node-id="37:484" data-name="HomePage">
+          <div className="content-stretch flex flex-col items-center relative shrink-0 w-full" data-node-id="37:485" data-name="Container:margin">
+            <div className="content-stretch flex flex-col items-start max-w-[1179.64794921875px] relative shrink-0 w-[1179.648px]" data-node-id="37:486" data-name="Container">
+              <div className="content-stretch flex items-center justify-between relative shrink-0 w-full" data-node-id="37:487" data-name="Container">
+                <div className="content-stretch flex flex-col items-start max-w-[829.43994140625px] pb-[57.6px] relative shrink-0 w-[829.44px]" data-node-id="37:488" data-name="SectionHeading">
+                  <div className="content-stretch flex gap-[13.824px] h-[21.528px] items-center relative shrink-0 w-full" data-node-id="37:489" data-name="Eyebrow">
+                    <div className="bg-[#df5903] h-[1.152px] relative shrink-0 w-[32.256px]" data-node-id="37:490" data-name="Text" />
+                    <p className="[word-break:break-word] font-['Inter:Bold'] font-bold leading-[21.542px] not-italic relative shrink-0 text-[#df5903] text-[12.672px] tracking-[3.0413px] uppercase whitespace-nowrap" data-node-id="37:491">
+                      The assignment
+                    </p>
+                  </div>
+                  <div className="content-stretch flex flex-col h-[81.792px] items-start pt-[25.344px] relative shrink-0 w-[797.454px]" data-node-id="37:492" data-name="Heading 2">
+                    <p className="[word-break:break-word] font-['TacticSans-BlkIt:Italic'] leading-[55.642px] not-italic relative shrink-0 text-[#08130f] text-[52.992px] tracking-[-1.0598px] whitespace-nowrap" data-node-id="37:493">
+                      Four movements, one assignment.
+                    </p>
+                  </div>
+                  <div className="content-stretch flex flex-col items-start pt-[18.432px] relative shrink-0" data-node-id="37:494" data-name="Paragraph:margin">
+                    <p className="[word-break:break-word] font-['Segoe_UI:Regular'] leading-[31.334px] not-italic relative shrink-0 text-[18.432px] text-[rgba(8,19,15,0.68)] w-[870px]" data-node-id="37:495">
+                      Prayer forms a people. These are the rhythms through which we make room for that formation.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="border-[rgba(8,19,15,0.1)] border-solid border-t-[1.152px] grid grid-cols-[____294.91px_294.91px_294.91px_294.91px] grid-rows-[_232.60px] relative shrink-0 w-full" data-node-id="37:498" data-name="Container">
+                <div className="col-1 content-stretch flex flex-col items-start justify-self-stretch pr-[29.952px] relative row-1 self-stretch shrink-0" data-node-id="37:499" data-name="Article:margin">
+                  <div className="border-[rgba(8,19,15,0.1)] border-r-[1.152px] border-solid content-stretch flex flex-col h-[232.596px] items-start pb-[11.52px] pr-[32.256px] pt-[39.168px] relative shrink-0 w-[264.96px]" data-node-id="37:500" data-name="Article">
+                    <div className="h-[40.536px] relative shrink-0 w-full" data-node-id="37:501" data-name="Container">
+                      <p className="[word-break:break-word] absolute font-['Fraunces:Regular'] font-normal leading-[normal] left-0 text-[#df5903] text-[32.256px] top-[-4.61px] whitespace-nowrap" data-node-id="37:502" style={{ fontVariationSettings: '"SOFT" 0, "WONK" 1' }}>
+                        01
+                      </p>
+                    </div>
+                    <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="37:503" data-name="Heading 3">
+                      <p className="[word-break:break-word] font-['TacticSans-BlkIt:Italic'] leading-[27.821px] not-italic relative shrink-0 text-[#08130f] text-[26.496px] tracking-[-0.5299px] whitespace-nowrap" data-node-id="37:504">
+                        Pray
+                      </p>
+                    </div>
+                    <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="37:505" data-name="Paragraph">
+                      <p className="[word-break:break-word] font-['Segoe_UI:Regular'] leading-[27.418px] not-italic relative shrink-0 text-[16.128px] text-[rgba(8,19,15,0.68)] w-[231.552px]" data-node-id="37:506">
+                        We intercede faithfully for people, cities and the purposes of God.
+                      </p>
+                    </div>
+                    <div className="[word-break:break-word] h-[31.32px] leading-[21.542px] not-italic relative shrink-0 text-[12.672px] tracking-[1.2672px] uppercase w-full whitespace-nowrap" data-node-id="37:507" data-name="Container">
+                      <p className="absolute font-['Segoe_UI:Bold'] left-0 text-[#08130f] top-[6.91px]" data-node-id="37:508">{`Explore `}</p>
+                      <p className="absolute font-['Inter:Black'] font-black left-[84.82px] text-[#df5903] top-[6.91px]" data-node-id="37:509">
+                        →
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-2 content-stretch flex flex-col items-start justify-self-stretch pr-[29.952px] relative row-1 self-stretch shrink-0" data-node-id="37:510" data-name="Article:margin">
+                  <div className="border-[rgba(8,19,15,0.1)] border-r-[1.152px] border-solid content-stretch flex flex-col h-[232.596px] items-start pb-[11.52px] pr-[32.256px] pt-[39.168px] relative shrink-0 w-[264.96px]" data-node-id="37:511" data-name="Article">
+                    <div className="h-[40.536px] relative shrink-0 w-full" data-node-id="37:512" data-name="Container">
+                      <p className="[word-break:break-word] absolute font-['Fraunces:Regular'] font-normal leading-[normal] left-0 text-[#df5903] text-[32.256px] top-[-4.61px] whitespace-nowrap" data-node-id="37:513" style={{ fontVariationSettings: '"SOFT" 0, "WONK" 1' }}>
+                        02
+                      </p>
+                    </div>
+                    <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="37:514" data-name="Heading 3">
+                      <p className="[word-break:break-word] font-['TacticSans-BlkIt:Italic'] leading-[27.821px] not-italic relative shrink-0 text-[#08130f] text-[26.496px] tracking-[-0.5299px] whitespace-nowrap" data-node-id="37:515">
+                        Learn
+                      </p>
+                    </div>
+                    <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="37:516" data-name="Paragraph">
+                      <p className="[word-break:break-word] font-['Segoe_UI:Regular'] leading-[27.418px] not-italic relative shrink-0 text-[16.128px] text-[rgba(8,19,15,0.68)] w-[231.552px]" data-node-id="37:517">
+                        We open Scripture and learn the ways, language and practice of prayer.
+                      </p>
+                    </div>
+                    <div className="[word-break:break-word] h-[31.32px] leading-[21.542px] not-italic relative shrink-0 text-[12.672px] tracking-[1.2672px] uppercase w-full whitespace-nowrap" data-node-id="37:518" data-name="Container">
+                      <p className="absolute font-['Segoe_UI:Bold'] left-0 text-[#08130f] top-[6.91px]" data-node-id="37:519">{`Explore `}</p>
+                      <p className="absolute font-['Inter:Black'] font-black left-[84.82px] text-[#df5903] top-[6.91px]" data-node-id="37:520">
+                        →
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-3 content-stretch flex flex-col items-start justify-self-stretch pr-[29.952px] relative row-1 self-stretch shrink-0" data-node-id="37:521" data-name="Article:margin">
+                  <div className="border-[rgba(8,19,15,0.1)] border-r-[1.152px] border-solid content-stretch flex flex-col h-[232.596px] items-start pb-[11.52px] pr-[32.256px] pt-[39.168px] relative shrink-0 w-[264.96px]" data-node-id="37:522" data-name="Article">
+                    <div className="h-[40.536px] relative shrink-0 w-full" data-node-id="37:523" data-name="Container">
+                      <p className="[word-break:break-word] absolute font-['Fraunces:Regular'] font-normal leading-[normal] left-0 text-[#df5903] text-[32.256px] top-[-4.61px] whitespace-nowrap" data-node-id="37:524" style={{ fontVariationSettings: '"SOFT" 0, "WONK" 1' }}>
+                        03
+                      </p>
+                    </div>
+                    <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="37:525" data-name="Heading 3">
+                      <p className="[word-break:break-word] font-['TacticSans-BlkIt:Italic'] leading-[27.821px] not-italic relative shrink-0 text-[#08130f] text-[26.496px] tracking-[-0.5299px] whitespace-nowrap" data-node-id="37:526">
+                        Gather
+                      </p>
+                    </div>
+                    <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="37:527" data-name="Paragraph">
+                      <p className="[word-break:break-word] font-['Segoe_UI:Regular'] leading-[27.418px] not-italic relative shrink-0 text-[16.128px] text-[rgba(8,19,15,0.68)] w-[231.552px]" data-node-id="37:528">
+                        We make room for unhurried worship, prayer and apostolic instruction.
+                      </p>
+                    </div>
+                    <div className="[word-break:break-word] h-[31.32px] leading-[21.542px] not-italic relative shrink-0 text-[12.672px] tracking-[1.2672px] uppercase w-full whitespace-nowrap" data-node-id="37:529" data-name="Container">
+                      <p className="absolute font-['Segoe_UI:Bold'] left-0 text-[#08130f] top-[6.91px]" data-node-id="37:530">{`Explore `}</p>
+                      <p className="absolute font-['Inter:Black'] font-black left-[84.82px] text-[#df5903] top-[6.91px]" data-node-id="37:531">
+                        →
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-4 content-stretch flex flex-col items-start justify-self-stretch pr-[29.952px] relative row-1 self-stretch shrink-0" data-node-id="37:532" data-name="Article:margin">
+                  <div className="content-stretch flex flex-col h-[232.596px] items-start pb-[11.52px] pr-[32.256px] pt-[39.168px] relative shrink-0 w-[264.96px]" data-node-id="37:533" data-name="Article">
+                    <div className="h-[40.536px] relative shrink-0 w-full" data-node-id="37:534" data-name="Container">
+                      <p className="[word-break:break-word] absolute font-['Fraunces:Regular'] font-normal leading-[normal] left-0 text-[#df5903] text-[32.256px] top-[-4.61px] whitespace-nowrap" data-node-id="37:535" style={{ fontVariationSettings: '"SOFT" 0, "WONK" 1' }}>
+                        04
+                      </p>
+                    </div>
+                    <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="37:536" data-name="Heading 3">
+                      <p className="[word-break:break-word] font-['TacticSans-BlkIt:Italic'] leading-[27.821px] not-italic relative shrink-0 text-[#08130f] text-[26.496px] tracking-[-0.5299px] whitespace-nowrap" data-node-id="37:537">
+                        Go
+                      </p>
+                    </div>
+                    <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="37:538" data-name="Paragraph">
+                      <p className="[word-break:break-word] font-['Segoe_UI:Regular'] leading-[27.418px] not-italic relative shrink-0 text-[16.128px] text-[rgba(8,19,15,0.68)] w-[232.704px]" data-node-id="37:539">
+                        We carry prayer into schools, churches, families and the public square.
+                      </p>
+                    </div>
+                    <div className="[word-break:break-word] h-[31.32px] leading-[21.542px] not-italic relative shrink-0 text-[12.672px] tracking-[1.2672px] uppercase w-full whitespace-nowrap" data-node-id="37:540" data-name="Container">
+                      <p className="absolute font-['Segoe_UI:Bold'] left-0 text-[#08130f] top-[6.91px]" data-node-id="37:541">{`Explore `}</p>
+                      <p className="absolute font-['Inter:Black'] font-black left-[84.82px] text-[#df5903] top-[6.91px]" data-node-id="37:542">
+                        →
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col items-start py-[70px] relative shrink-0 w-full" data-node-id="37:543" data-name="HomePage">
+          <div className="content-stretch flex flex-col items-center relative shrink-0 w-full" data-node-id="37:544" data-name="Container:margin">
+            <div className="content-stretch flex flex-col items-start max-w-[1172.275146484375px] p-[80.136px] relative rounded-[32.054px] shrink-0 w-[1172.275px]" data-node-id="37:545" data-name="Container">
+              <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[32.054px]">
+                <img alt="" className="absolute max-w-none object-cover rounded-[32.054px] size-full" src={imgContainer} />
+                <div className="absolute bg-gradient-to-r from-[rgba(8,19,15,0.96)] inset-0 rounded-[32.054px] to-[rgba(8,19,15,0.64)]" />
+              </div>
+              <div className="content-stretch flex flex-col items-start max-w-[744.1199951171875px] relative shrink-0 w-[744.12px]" data-node-id="37:546" data-name="Container">
+                <div className="content-stretch flex gap-[13.738px] h-[21.393px] items-center relative shrink-0 w-full" data-node-id="37:547" data-name="Eyebrow">
+                  <div className="bg-[#fbcc22] h-[1.145px] relative shrink-0 w-[32.054px]" data-node-id="37:548" data-name="Text" />
+                  <p className="[word-break:break-word] font-['Inter:Bold'] font-bold leading-[21.408px] not-italic relative shrink-0 text-[#fbcc22] text-[12.593px] tracking-[3.0223px] uppercase whitespace-nowrap" data-node-id="37:549">
+                    Featured event · December 2026
+                  </p>
+                </div>
+                <div className="content-stretch flex flex-col h-[164.851px] items-start pt-[25.186px] relative shrink-0 w-[744.12px]" data-node-id="37:550" data-name="Heading 2">
+                  <div className="[word-break:break-word] font-['TacticSans-BlkIt:Italic'] leading-[0] not-italic relative shrink-0 text-[#f8f3e9] text-[66.398px] tracking-[-1.328px] whitespace-nowrap" data-node-id="37:551">
+                    <p className="leading-[69.718px] mb-0">Instruction Prayer</p>
+                    <p className="leading-[69.718px]">Conference 2026</p>
+                  </div>
+                </div>
+                <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="37:552" data-name="Paragraph">
+                  <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[0] not-italic relative shrink-0 text-[0px] text-[rgba(248,243,233,0.7)] w-[744.12px]" data-node-id="37:553">
+                    <span className="font-['Segoe_UI:Regular'] leading-[33.085px] text-[19.462px]">{`Three days of Word, prayer and spiritual formation around the theme `}</span>
+                    <span className="font-['Segoe_UI:Italic'] leading-[33.085px] text-[#fbcc22] text-[19.462px]">“Built upon the altar.”</span>
+                  </p>
+                </div>
+                <div className="content-stretch flex gap-[28.62px] h-[51.856px] items-start pt-[34.344px] relative shrink-0 w-[744.12px]" data-node-id="37:554" data-name="Container">
+                  <div className="content-stretch flex flex-col h-full items-start relative shrink-0" data-node-id="37:555" data-name="Text">
+                    <p className="[word-break:break-word] font-['Segoe_UI:Regular'] leading-[17.515px] not-italic relative shrink-0 text-[#f0e2bd] text-[10.303px] tracking-[1.6485px] whitespace-nowrap" data-node-id="37:556">
+                      DECEMBER 2026
+                    </p>
+                  </div>
+                  <div className="content-stretch flex flex-col h-full items-start relative shrink-0" data-node-id="37:557" data-name="Text">
+                    <p className="[word-break:break-word] font-['Segoe_UI:Regular'] leading-[17.515px] not-italic relative shrink-0 text-[#f0e2bd] text-[10.303px] tracking-[1.6485px] whitespace-nowrap" data-node-id="37:558">
+                      LAGOS + ONLINE
+                    </p>
+                  </div>
+                  <div className="content-stretch flex flex-col h-full items-start relative shrink-0" data-node-id="37:559" data-name="Text">
+                    <p className="[word-break:break-word] font-['Segoe_UI:Regular'] leading-[17.515px] not-italic relative shrink-0 text-[#f0e2bd] text-[10.303px] tracking-[1.6485px] whitespace-nowrap" data-node-id="37:560">
+                      REGISTRATION FREE
+                    </p>
+                  </div>
+                </div>
+                <div className="content-stretch flex gap-[13.738px] h-[90.439px] items-center pt-[34.344px] relative shrink-0 w-[744.12px]" data-node-id="37:561" data-name="Container">
+                  <a className="bg-[#fbcc22] border-[1.145px] border-[rgba(0,0,0,0)] border-solid content-stretch cursor-pointer flex items-center justify-center px-[27.475px] py-[14.882px] relative rounded-[1143.655px] shrink-0" data-node-id="37:562" data-name="Button">
+                    <p className="[word-break:break-word] font-['Inter:Bold'] font-bold leading-[23.354px] not-italic relative shrink-0 text-[#08130f] text-[13.738px] text-left tracking-[0.6182px] uppercase whitespace-nowrap" data-node-id="37:563">
+                      Register Now
+                    </p>
+                  </a>
+                  <div className="border-[1.145px] border-[rgba(248,243,233,0.35)] border-solid content-stretch flex items-center justify-center px-[27.475px] py-[14.882px] relative rounded-[1143.655px] shrink-0" data-node-id="37:564" data-name="Button">
+                    <p className="[word-break:break-word] font-['Inter:Bold'] font-bold leading-[23.354px] not-italic relative shrink-0 text-[#f8f3e9] text-[13.738px] tracking-[0.6182px] uppercase whitespace-nowrap" data-node-id="37:565">
+                      Learn More
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="bg-[#08130f] h-[708px] overflow-clip relative shrink-0 w-[1440px]" data-node-id="48:624" data-name="PageHero">
+          <div className="absolute bg-black h-[728px] left-0 overflow-clip top-[-0.1px] w-[1440px]" data-node-id="48:674">
+            <div className="absolute h-[839px] left-[465px] top-0 w-[1119px]" data-node-id="48:675" data-name="image 8">
+              <div aria-hidden className="absolute inset-0 pointer-events-none">
+                <img alt="" className="absolute max-w-none object-cover size-full" src={imgImage8} />
+                <div className="absolute backdrop-blur-[20px] inset-0" style={{ backgroundImage: "linear-gradient(87.7774783265313deg, rgb(0, 0, 0) 1.2922%, rgba(153, 153, 153, 0) 80.921%)" }} />
+              </div>
+            </div>
+            <div className="absolute content-stretch flex flex-col items-start justify-center left-[130.5px] max-w-[1179.64794921875px] py-[103.68px] top-[84px] w-[1179.648px]" data-node-id="48:676" data-name="Container">
+              <div className="content-stretch flex gap-[13.824px] h-[21.528px] items-center relative shrink-0 w-full" data-node-id="48:677" data-name="Eyebrow">
+                <div className="bg-[#fbcc22] h-[1.152px] relative shrink-0 w-[32.256px]" data-node-id="48:678" data-name="Text" />
+                <p className="[word-break:break-word] font-['Inter:Bold'] font-bold leading-[21.542px] not-italic relative shrink-0 text-[#fbcc22] text-[12.672px] tracking-[3.0413px] uppercase whitespace-nowrap" data-node-id="48:679">
+                  Give
+                </p>
+              </div>
+              <div className="content-stretch flex flex-col h-[146px] items-start max-w-[979.199951171875px] pt-[25.344px] relative shrink-0 w-[979px]" data-node-id="48:680" data-name="Heading 1">
+                <div className="[word-break:break-word] font-['Fraunces:Regular'] font-[450] leading-[0] not-italic relative shrink-0 text-[#f8f3e9] text-[0px] tracking-[-1.5667px] w-[979px]" data-node-id="48:681" style={{ fontVariationSettings: '"SOFT" 0, "WONK" 1' }}>
+                  <p className="font-['TacticSans-BlkIt:Italic'] leading-[60px] mb-0 text-[60px]">Put generosity</p>
+                  <p className="font-['TacticSans-BlkIt:Italic'] leading-[60px] text-[#fbcc22] text-[60px]">behind the assignment.</p>
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col items-start pt-[27.648px] relative shrink-0" data-node-id="48:682" data-name="Paragraph:margin">
+                <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[33.293px] not-italic relative shrink-0 text-[19.584px] text-[rgba(248,243,233,0.7)] w-[639px]" data-node-id="48:683">
+                  Your giving keeps prayer gatherings free, sends teams into schools and opens the doors of the Instruction Prayer Conference.
+                </p>
+              </div>
+              <div className="content-stretch flex h-[91.008px] items-center pt-[34.56px] relative shrink-0 w-[1179.648px]" data-node-id="48:684" data-name="Container">
+                <div className="bg-[#fbcc22] border-[#fbcc22] border-[1.553px] border-solid content-stretch flex h-[49px] items-center justify-center px-[24.854px] py-[17.087px] relative rounded-[7.767px] shrink-0 w-[221px]" data-node-id="48:690" data-name="Button">
+                  <p className="[word-break:break-word] font-['Segoe_UI:Bold'] leading-[20.4px] not-italic relative shrink-0 text-[#08130f] text-[12px] tracking-[0.54px] uppercase whitespace-nowrap" data-node-id="48:691">
+                    Give today
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="bg-[#fef9f2] content-stretch flex flex-col h-[753.69px] items-start py-[109.901px] relative shrink-0 w-[1431px]" data-node-id="37:566" data-name="HomePage">
+          <div className="content-stretch flex flex-col items-center relative shrink-0 w-full" data-node-id="37:567" data-name="Container:margin">
+            <div className="content-stretch flex flex-col items-start max-w-[1172.2752685546875px] relative shrink-0 w-[1172.275px]" data-node-id="37:568" data-name="Container">
+              <div className="content-stretch flex h-[208.55px] items-end justify-between relative shrink-0 w-full" data-node-id="37:569" data-name="Container">
+                <div className="content-stretch flex flex-col h-[210.285px] items-start max-w-[824.2559814453125px] pb-[57.24px] relative shrink-0 w-[526.823px]" data-node-id="37:570" data-name="SectionHeading">
+                  <div className="content-stretch flex gap-[13.738px] h-[21.393px] items-center relative shrink-0 w-full" data-node-id="37:571" data-name="Eyebrow">
+                    <div className="bg-[#a4503a] h-[1.145px] relative shrink-0 w-[32.054px]" data-node-id="37:572" data-name="Text" />
+                    <p className="[word-break:break-word] font-['Inter:Bold'] font-bold leading-[21.408px] not-italic relative shrink-0 text-[#a4503a] text-[12.593px] tracking-[3.0223px] uppercase whitespace-nowrap" data-node-id="37:573">
+                      Stories of grace
+                    </p>
+                  </div>
+                  <div className="content-stretch flex flex-col h-[81.281px] items-start pt-[25.186px] relative shrink-0 w-[526.823px]" data-node-id="37:574" data-name="Heading 2">
+                    <p className="[word-break:break-word] font-['TacticSans-BlkIt:Italic'] leading-[55.294px] not-italic relative shrink-0 text-[#08130f] text-[52.661px] tracking-[-1.0532px] whitespace-nowrap" data-node-id="37:575">
+                      Prayer changes things.
+                    </p>
+                  </div>
+                  <div className="content-stretch flex flex-col h-[50.371px] items-start max-w-[732.6719970703125px] pt-[18.317px] relative shrink-0 w-[526.823px]" data-node-id="37:576" data-name="Paragraph">
+                    <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[31.139px] not-italic relative shrink-0 text-[18.317px] text-[rgba(8,19,15,0.68)] whitespace-nowrap" data-node-id="37:577">
+                      Quiet testimonies from people who chose to keep praying.
+                    </p>
+                  </div>
+                </div>
+                <div className="border-[1.145px] border-[rgba(8,19,15,0.24)] border-solid content-stretch flex items-center justify-center px-[27.475px] py-[14.882px] relative rounded-[1143.655px] shrink-0" data-node-id="37:578" data-name="Button">
+                  <p className="[word-break:break-word] font-['Inter:Bold'] font-bold leading-[23.354px] not-italic relative shrink-0 text-[#08130f] text-[13.738px] tracking-[0.6182px] uppercase whitespace-nowrap" data-node-id="37:579">
+                    Read Testimonies
+                  </p>
+                </div>
+              </div>
+              <div className="gap-x-[20.60639762878418px] gap-y-[20.60639762878418px] grid grid-cols-[___377.01px_377.01px_377.03px] grid-rows-[_325.34px] relative shrink-0 w-full" data-node-id="37:580" data-name="Container">
+                <div className="bg-[#fffdf8] border-[1.145px] border-[rgba(8,19,15,0.1)] border-solid col-1 content-stretch flex flex-col items-start justify-self-stretch p-[29.765px] relative rounded-[22.896px] row-1 self-stretch shrink-0" data-node-id="37:581" data-name="TestimonyCard">
+                  <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="37:582" data-name="Quote">
+                    <p className="[word-break:break-word] font-['Segoe_UI:Regular'] leading-[33.714px] not-italic relative shrink-0 text-[#08130f] text-[21.751px] w-[315.965px]" data-node-id="37:583">
+                      “I had been trusting God for work for months. We prayed on Monday, and by Thursday I received the call I had been waiting for.”
+                    </p>
+                  </div>
+                  <div className="content-stretch flex flex-col items-start pt-[27.475px] relative shrink-0" data-node-id="37:584" data-name="Container:margin">
+                    <div className="bg-[#c19a3c] h-[1.145px] relative shrink-0 w-[41.213px]" data-node-id="37:585" data-name="Container" />
+                  </div>
+                  <div className="content-stretch flex flex-col items-start pt-[27.475px] relative shrink-0 w-full" data-node-id="37:586" data-name="Container:margin">
+                    <div className="grid grid-cols-[__242.84px_72.35px] grid-rows-[__19.46px_19.46px] relative shrink-0 w-full" data-node-id="37:587" data-name="Container">
+                      <div className="col-1 content-stretch flex flex-col h-[19.462px] items-start justify-self-stretch relative row-1 self-center shrink-0" data-node-id="37:588" data-name="Bold Text">
+                        <p className="[word-break:break-word] font-['TacticSans-BlkIt:Italic'] leading-[19.462px] not-italic relative shrink-0 text-[#08130f] text-[11.448px] tracking-[1.1448px] whitespace-nowrap" data-node-id="37:589">
+                          AMARA O.
+                        </p>
+                      </div>
+                      <div className="col-1 content-stretch flex flex-col h-[19.462px] items-start justify-self-stretch relative row-2 self-center shrink-0" data-node-id="37:590" data-name="Text">
+                        <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[19.462px] not-italic relative shrink-0 text-[#6f8479] text-[11.448px] tracking-[1.1448px] whitespace-nowrap" data-node-id="37:591">
+                          Lagos
+                        </p>
+                      </div>
+                      <div className="border-[1.145px] border-[rgba(8,19,15,0.1)] border-solid col-2 content-stretch flex flex-col h-[29.3px] items-start justify-self-stretch px-[10.303px] py-[5.724px] relative rounded-[113.335px] row-[1/span_2] self-center shrink-0" data-node-id="37:592" data-name="Small">
+                        <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[15.569px] not-italic relative shrink-0 text-[#08130f] text-[9.158px] uppercase whitespace-nowrap" data-node-id="37:593">
+                          Provision
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="bg-[#fffdf8] border-[1.145px] border-[rgba(8,19,15,0.1)] border-solid col-2 content-stretch flex flex-col items-start justify-self-stretch p-[29.765px] relative rounded-[22.896px] row-1 self-stretch shrink-0" data-node-id="37:594" data-name="TestimonyCard">
+                  <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="37:595" data-name="Quote">
+                    <p className="[word-break:break-word] font-['Segoe_UI:Regular'] leading-[33.714px] not-italic relative shrink-0 text-[#08130f] text-[21.751px] w-[315.965px]" data-node-id="37:596">
+                      “The teaching gave language to what I had felt for years: prayer is not an event, but a life lived before God.”
+                    </p>
+                  </div>
+                  <div className="content-stretch flex flex-col items-start pt-[27.475px] relative shrink-0" data-node-id="37:597" data-name="Container:margin">
+                    <div className="bg-[#c19a3c] h-[1.145px] relative shrink-0 w-[41.213px]" data-node-id="37:598" data-name="Container" />
+                  </div>
+                  <div className="content-stretch flex flex-col items-start pt-[27.475px] relative shrink-0 w-full" data-node-id="37:599" data-name="Container:margin">
+                    <div className="grid grid-cols-[__201.66px_113.53px] grid-rows-[__19.46px_19.46px] relative shrink-0 w-full" data-node-id="37:600" data-name="Container">
+                      <div className="col-1 content-stretch flex flex-col h-[19.462px] items-start justify-self-stretch relative row-1 self-center shrink-0" data-node-id="37:601" data-name="Bold Text">
+                        <p className="[word-break:break-word] font-['TacticSans-BlkIt:Italic'] leading-[19.462px] not-italic relative shrink-0 text-[#08130f] text-[11.448px] tracking-[1.1448px] whitespace-nowrap" data-node-id="37:602">
+                          DAVID A.
+                        </p>
+                      </div>
+                      <div className="col-1 content-stretch flex flex-col h-[19.462px] items-start justify-self-stretch relative row-2 self-center shrink-0" data-node-id="37:603" data-name="Text">
+                        <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[19.462px] not-italic relative shrink-0 text-[#6f8479] text-[11.448px] tracking-[1.1448px] whitespace-nowrap" data-node-id="37:604">
+                          London
+                        </p>
+                      </div>
+                      <div className="border-[1.145px] border-[rgba(8,19,15,0.1)] border-solid col-2 content-stretch flex flex-col h-[29.3px] items-start justify-self-stretch px-[10.303px] py-[5.724px] relative rounded-[113.335px] row-[1/span_2] self-center shrink-0" data-node-id="37:605" data-name="Small">
+                        <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[15.569px] not-italic relative shrink-0 text-[#08130f] text-[9.158px] uppercase whitespace-nowrap" data-node-id="37:606">
+                          Spiritual growth
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="bg-[#fffdf8] border-[1.145px] border-[rgba(8,19,15,0.1)] border-solid col-3 content-stretch flex flex-col items-start justify-self-stretch p-[29.765px] relative rounded-[22.896px] row-1 self-stretch shrink-0" data-node-id="37:607" data-name="TestimonyCard">
+                  <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="37:608" data-name="Quote">
+                    <p className="[word-break:break-word] font-['Segoe_UI:Regular'] leading-[33.714px] not-italic relative shrink-0 text-[#08130f] text-[21.751px] w-[315.965px]" data-node-id="37:609">
+                      “Our family found peace in a season that should have broken us. God met us in the prayers of this community.”
+                    </p>
+                  </div>
+                  <div className="content-stretch flex flex-col items-start pt-[27.475px] relative shrink-0" data-node-id="37:610" data-name="Container:margin">
+                    <div className="bg-[#c19a3c] h-[1.145px] relative shrink-0 w-[41.213px]" data-node-id="37:611" data-name="Container" />
+                  </div>
+                  <div className="content-stretch flex flex-col items-start pt-[27.475px] relative shrink-0 w-full" data-node-id="37:612" data-name="Container:margin">
+                    <div className="grid grid-cols-[__259.60px_55.61px] grid-rows-[__19.46px_19.46px] relative shrink-0 w-full" data-node-id="37:613" data-name="Container">
+                      <div className="col-1 content-stretch flex flex-col h-[19.462px] items-start justify-self-stretch relative row-1 self-center shrink-0" data-node-id="37:614" data-name="Bold Text">
+                        <p className="[word-break:break-word] font-['TacticSans-BlkIt:Italic'] leading-[19.462px] not-italic relative shrink-0 text-[#08130f] text-[11.448px] tracking-[1.1448px] whitespace-nowrap" data-node-id="37:615">
+                          BISI K.
+                        </p>
+                      </div>
+                      <div className="col-1 content-stretch flex flex-col h-[19.462px] items-start justify-self-stretch relative row-2 self-center shrink-0" data-node-id="37:616" data-name="Text">
+                        <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[19.462px] not-italic relative shrink-0 text-[#6f8479] text-[11.448px] tracking-[1.1448px] whitespace-nowrap" data-node-id="37:617">
+                          Abuja
+                        </p>
+                      </div>
+                      <div className="border-[1.145px] border-[rgba(8,19,15,0.1)] border-solid col-2 content-stretch flex flex-col h-[29.3px] items-start justify-self-stretch px-[10.303px] py-[5.724px] relative rounded-[113.335px] row-[1/span_2] self-center shrink-0" data-node-id="37:618" data-name="Small">
+                        <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[15.569px] not-italic relative shrink-0 text-[#08130f] text-[9.158px] uppercase whitespace-nowrap" data-node-id="37:619">
+                          Family
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0 w-full" data-node-id="52:2214">
+          <div className="content-stretch flex flex-col items-start py-[109.901px] relative shrink-0 w-full" data-node-id="37:621" data-name="CtaBand">
+            <div className="content-stretch flex flex-col items-center relative shrink-0 w-full" data-node-id="37:622" data-name="Container:margin">
+              <div className="bg-gradient-to-b content-stretch flex flex-col from-[#df5903] h-[459px] items-start max-w-[1172.275146484375px] overflow-clip px-[34.344px] py-[97.308px] relative rounded-[36.634px] shrink-0 to-[#793002] w-[1172.275px]" data-node-id="37:623" data-name="Container">
+                <div className="content-stretch flex flex-col gap-[23px] items-center justify-end relative shrink-0 w-full" data-node-id="37:811">
+                  <div className="content-stretch flex gap-[13.738px] h-[21.393px] items-center justify-center relative shrink-0 w-full" data-node-id="37:624" data-name="Eyebrow">
+                    <div className="bg-[#e6c47a] h-[1.145px] relative shrink-0 w-[32.054px]" data-node-id="37:625" data-name="Text" />
+                    <p className="[word-break:break-word] font-['Segoe_UI:Bold'] leading-[21.408px] not-italic relative shrink-0 text-[#e6c47a] text-[12.593px] text-center tracking-[3.0223px] uppercase whitespace-nowrap" data-node-id="37:626">
+                      Come as you are
+                    </p>
+                  </div>
+                  <div className="content-stretch flex flex-col items-center relative shrink-0 w-[1103.587px]" data-node-id="37:638" data-name="Heading 2">
+                    <div className="[word-break:break-word] font-['Fraunces:Regular'] font-[450] leading-[0] not-italic relative shrink-0 text-[#f8f3e9] text-[0px] text-center tracking-[-1.1906px] whitespace-nowrap" data-node-id="37:639" style={{ fontVariationSettings: '"SOFT" 0, "WONK" 1' }}>
+                      <p className="font-['TacticSans-BlkIt:Italic'] leading-[40px] mb-0 text-[40px]">You do not have to be an expert to pray.</p>
+                      <p className="font-['TacticSans-BlkIt:Italic'] leading-[40px] text-[40px] text-white">You only have to begin.</p>
+                    </div>
+                  </div>
+                  <div className="content-stretch flex gap-[13.738px] h-[73px] items-center justify-center py-[34.344px] relative shrink-0 w-[1103px]" data-node-id="37:629" data-name="Container">
+                    <div className="bg-[#fbcc22] border-[#fbcc22] border-[1.553px] border-solid content-stretch flex h-[49px] items-center justify-center px-[24.854px] py-[17.087px] relative rounded-[7.767px] shrink-0 w-[221px]" data-node-id="37:807" data-name="Button">
+                      <p className="[word-break:break-word] font-['Segoe_UI:Bold'] leading-[20.4px] not-italic relative shrink-0 text-[#08130f] text-[12px] tracking-[0.54px] uppercase whitespace-nowrap" data-node-id="37:808">
+                        Join on whatsapp
+                      </p>
+                    </div>
+                    <div className="border-[1.145px] border-[rgba(248,243,233,0.35)] border-solid content-stretch flex items-center justify-center px-[27.475px] py-[14.882px] relative rounded-[1143.655px] shrink-0" data-node-id="37:632" data-name="Button">
+                      <p className="[word-break:break-word] font-['Inter:Bold'] font-bold leading-[23.354px] not-italic relative shrink-0 text-[#f8f3e9] text-[13.738px] text-center tracking-[0.6182px] uppercase whitespace-nowrap" data-node-id="37:633">
+                        Prayer Sessions
+                      </p>
+                    </div>
+                    <div className="absolute contents left-[-196.71px] top-[-249.79px]" data-node-id="37:778" data-name="texture">
+                      <div className="absolute left-[-161.71px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-189px_-156.421px] mask-size-[733.222px_844px] mix-blend-overlay size-[500px] top-[-247.36px]" data-node-id="37:782" style={{ maskImage: `url("${imgChess}")` }} data-name="chess">
+                        <div className="absolute bg-size-[800px_800px] bg-top-left inset-0" data-node-id="I37:782;9701:80210" style={{ backgroundImage: `url("${imgTexture}")` }} data-name="texture" />
+                      </div>
+                      <div className="absolute left-[-151.71px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-199px_-156.421px] mask-size-[733.222px_844px] mix-blend-overlay size-[500px] top-[-247.36px]" data-node-id="37:783" style={{ maskImage: `url("${imgChess}")` }} data-name="chess">
+                        <div className="absolute bg-size-[800px_800px] bg-top-left inset-0" data-node-id="I37:783;9701:80210" style={{ backgroundImage: `url("${imgTexture}")` }} data-name="texture" />
+                      </div>
+                      <div className="absolute flex items-center justify-center left-[-156.71px] mix-blend-overlay size-[500px] top-[-242.36px]" data-node-id="37:784">
+                        <div className="-rotate-90 flex-none">
+                          <div className="mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-194px_-161.421px] mask-size-[733.222px_844px] relative size-[500px]" style={{ maskImage: `url("${imgChess}")` }} data-name="chess">
+                            <div className="absolute bg-size-[800px_800px] bg-top-left inset-0" data-node-id="I37:784;9701:80210" style={{ backgroundImage: `url("${imgTexture}")` }} data-name="texture" />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="absolute flex items-center justify-center left-[-156.71px] mix-blend-overlay size-[500px] top-[-252.36px]" data-node-id="37:785">
+                        <div className="-rotate-90 flex-none">
+                          <div className="mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-194px_-151.421px] mask-size-[733.222px_844px] relative size-[500px]" style={{ maskImage: `url("${imgChess}")` }} data-name="chess">
+                            <div className="absolute bg-size-[800px_800px] bg-top-left inset-0" data-node-id="I37:785;9701:80210" style={{ backgroundImage: `url("${imgTexture}")` }} data-name="texture" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="h-[31.124px] relative shrink-0 w-full" data-node-id="37:634" data-name="Container">
+                    <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Fraunces:Italic'] font-normal italic leading-[normal] left-[551.33px] text-[#e6c47a] text-[16.027px] text-center top-[1.14px] whitespace-nowrap" data-node-id="37:635" style={{ fontVariationSettings: '"SOFT" 0, "WONK" 1' }}>
+                      By all means, prayer must go on!
+                    </p>
+                  </div>
+                </div>
+                <div className="absolute contents left-[901.64px] top-[0.1px]" data-node-id="37:791" data-name="texture">
+                  <div className="absolute left-[806.64px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-59px_-184px] mask-size-[877px_859px] mix-blend-overlay size-[500px] top-[30.1px]" data-node-id="37:795" style={{ maskImage: `url("${imgChess1}")` }} data-name="chess">
+                    <div className="absolute bg-size-[800px_800px] bg-top-left inset-0" data-node-id="I37:795;9701:80210" style={{ backgroundImage: `url("${imgTexture}")` }} data-name="texture" />
+                  </div>
+                  <div className="absolute left-[816.64px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-69px_-184px] mask-size-[877px_859px] mix-blend-overlay size-[500px] top-[30.1px]" data-node-id="37:796" style={{ maskImage: `url("${imgChess1}")` }} data-name="chess">
+                    <div className="absolute bg-size-[800px_800px] bg-top-left inset-0" data-node-id="I37:796;9701:80210" style={{ backgroundImage: `url("${imgTexture}")` }} data-name="texture" />
+                  </div>
+                  <div className="absolute flex items-center justify-center left-[811.64px] mix-blend-overlay size-[500px] top-[35.1px]" data-node-id="37:797">
+                    <div className="-rotate-90 flex-none">
+                      <div className="mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-64px_-189px] mask-size-[877px_859px] relative size-[500px]" style={{ maskImage: `url("${imgChess1}")` }} data-name="chess">
+                        <div className="absolute bg-size-[800px_800px] bg-top-left inset-0" data-node-id="I37:797;9701:80210" style={{ backgroundImage: `url("${imgTexture}")` }} data-name="texture" />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="absolute flex items-center justify-center left-[811.64px] mix-blend-overlay size-[500px] top-[25.1px]" data-node-id="37:798">
+                    <div className="-rotate-90 flex-none">
+                      <div className="mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-64px_-179px] mask-size-[877px_859px] relative size-[500px]" style={{ maskImage: `url("${imgChess1}")` }} data-name="chess">
+                        <div className="absolute bg-size-[800px_800px] bg-top-left inset-0" data-node-id="I37:798;9701:80210" style={{ backgroundImage: `url("${imgTexture}")` }} data-name="texture" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="bg-black content-stretch flex flex-col items-start pb-[28.8px] pt-[89.856px] relative shrink-0 w-full" data-node-id="37:640" data-name="Footer">
+            <div className="content-stretch flex flex-col items-center relative shrink-0 w-full" data-node-id="37:641" data-name="Container:margin">
+              <div className="gap-x-[69.1199951171875px] gap-y-[69.1199951171875px] grid grid-cols-[____320.27px_160.15px_228.76px_263.11px] grid-rows-[_288.07px] max-w-[1179.64794921875px] pb-[69.12px] relative shrink-0 w-[1179.648px]" data-node-id="37:642" data-name="Container">
+                <div className="col-1 content-stretch flex flex-col items-start justify-self-stretch relative row-1 self-stretch shrink-0" data-node-id="37:643" data-name="Container">
+                  <div className="content-stretch flex flex-col items-start pt-[9.216px] relative shrink-0 w-full" data-node-id="37:644" data-name="Logo:margin">
+                    <div className="h-[88.704px] relative shrink-0 w-full" data-node-id="37:645" data-name="Logo">
+                      <div className="[word-break:break-word] absolute h-[43.776px] left-0 not-italic text-[#f8f3e9] top-[44.93px] w-[320.274px] whitespace-nowrap" data-node-id="37:646" data-name="Text">
+                        <p className="absolute font-['TacticSans-BlkIt:Italic'] leading-[normal] left-0 text-[23.04px] top-0" data-node-id="37:647">{`Let's Pray`}</p>
+                        <p className="absolute font-['Inter:Regular'] font-normal leading-[9.216px] left-0 text-[9.216px] top-[34.56px] tracking-[2.7648px]" data-node-id="37:648">
+                          MOVEMENT
+                        </p>
+                      </div>
+                      <div className="absolute h-[47px] left-[-0.18px] top-[-0.34px] w-[46px]" data-node-id="47:23" data-name="Let’s Pray Movement logo 1">
+                        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                          <img alt="" className="absolute h-[125.53%] left-[-35.85%] max-w-none top-[-0.11%] w-[171.78%]" src={imgLetsPrayMovementLogo2} />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="content-stretch flex flex-col items-start pt-[9.216px] relative shrink-0 w-[320.274px]" data-node-id="37:651" data-name="Paragraph">
+                    <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[23.501px] not-italic relative shrink-0 text-[13.824px] text-[rgba(248,243,233,0.55)] w-[321.408px]" data-node-id="37:652">{`Let's Pray is an interdenominational, apostolic and evangelistic prayer movement in Lagos, Nigeria.`}</p>
+                  </div>
+                  <div className="content-stretch flex flex-col h-[58.752px] items-start pt-[23.04px] relative shrink-0 w-[320.274px]" data-node-id="37:653" data-name="Italic Text">
+                    <p className="[word-break:break-word] font-['Fraunces:Italic'] font-normal italic leading-[35.251px] relative shrink-0 text-[#fbcc22] text-[20.736px] whitespace-nowrap" data-node-id="37:654" style={{ fontVariationSettings: '"SOFT" 0, "WONK" 1' }}>
+                      By all means, prayer must go on!
+                    </p>
+                  </div>
+                  <div className="content-stretch flex gap-[9.216px] h-[52.182px] items-start pt-[23.04px] relative shrink-0 w-[320.274px]" data-node-id="37:655" data-name="Container">
+                    <div className="border-[1.152px] border-[rgba(248,243,233,0.16)] border-solid content-stretch flex flex-col h-full items-start px-[11.52px] py-[4.608px] relative rounded-[114.048px] shrink-0" data-node-id="37:656" data-name="Text">
+                      <div className="relative shrink-0 size-[16px]" data-node-id="65:118" data-name="ant-design:instagram-filled">
+                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgAntDesignInstagramFilled} />
+                      </div>
+                    </div>
+                    <div className="border-[1.152px] border-[rgba(248,243,233,0.16)] border-solid content-stretch flex flex-col h-full items-start px-[11.52px] py-[4.608px] relative rounded-[114.048px] shrink-0" data-node-id="37:658" data-name="Text">
+                      <div className="relative shrink-0 size-[16px]" data-node-id="65:121" data-name="brandico:facebook-rect">
+                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBrandicoFacebookRect} />
+                      </div>
+                    </div>
+                    <div className="border-[1.152px] border-[rgba(248,243,233,0.16)] border-solid content-stretch flex flex-col h-full items-start px-[11.52px] py-[4.608px] relative rounded-[114.048px] shrink-0" data-node-id="37:660" data-name="Text">
+                      <div className="relative shrink-0 size-[16px]" data-node-id="65:124" data-name="ant-design:youtube-filled">
+                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgAntDesignYoutubeFilled} />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-2 content-stretch flex flex-col items-start justify-self-stretch relative row-1 self-stretch shrink-0" data-node-id="37:662" data-name="Container">
+                  <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="37:663" data-name="Heading 4">
+                    <p className="[word-break:break-word] font-['TacticSans-BlkIt:Italic'] leading-[normal] not-italic relative shrink-0 text-[#fbcc22] text-[20.736px] whitespace-nowrap" data-node-id="37:664">
+                      Quick links
+                    </p>
+                  </div>
+                  <div className="content-stretch flex flex-col h-[33.408px] items-start pt-[9.216px] relative shrink-0 w-[160.146px]" data-node-id="37:665" data-name="Link">
+                    <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[23.501px] not-italic relative shrink-0 text-[13.824px] text-[rgba(248,243,233,0.7)] whitespace-nowrap" data-node-id="37:666">
+                      About
+                    </p>
+                  </div>
+                  <div className="content-stretch flex flex-col h-[33.408px] items-start pt-[9.216px] relative shrink-0 w-[160.146px]" data-node-id="37:667" data-name="Link">
+                    <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[23.501px] not-italic relative shrink-0 text-[13.824px] text-[rgba(248,243,233,0.7)] whitespace-nowrap" data-node-id="37:668">
+                      Prayer Sessions
+                    </p>
+                  </div>
+                  <div className="content-stretch flex flex-col h-[33.408px] items-start pt-[9.216px] relative shrink-0 w-[160.146px]" data-node-id="37:669" data-name="Link">
+                    <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[23.501px] not-italic relative shrink-0 text-[13.824px] text-[rgba(248,243,233,0.7)] whitespace-nowrap" data-node-id="37:670">
+                      Teachings
+                    </p>
+                  </div>
+                  <div className="content-stretch flex flex-col h-[33.408px] items-start pt-[9.216px] relative shrink-0 w-[160.146px]" data-node-id="37:671" data-name="Link">
+                    <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[23.501px] not-italic relative shrink-0 text-[13.824px] text-[rgba(248,243,233,0.7)] whitespace-nowrap" data-node-id="37:672">
+                      IPC
+                    </p>
+                  </div>
+                  <div className="content-stretch flex flex-col h-[33.408px] items-start pt-[9.216px] relative shrink-0 w-[160.146px]" data-node-id="37:673" data-name="Link">
+                    <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[23.501px] not-italic relative shrink-0 text-[13.824px] text-[rgba(248,243,233,0.7)] whitespace-nowrap" data-node-id="37:674">
+                      Schools Invasion
+                    </p>
+                  </div>
+                  <div className="content-stretch flex flex-col h-[33.408px] items-start pt-[9.216px] relative shrink-0 w-[160.146px]" data-node-id="37:675" data-name="Link">
+                    <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[23.501px] not-italic relative shrink-0 text-[13.824px] text-[rgba(248,243,233,0.7)] whitespace-nowrap" data-node-id="37:676">
+                      Give
+                    </p>
+                  </div>
+                  <div className="content-stretch flex flex-col h-[42.624px] items-start py-[9.216px] relative shrink-0 w-[160.146px]" data-node-id="37:677" data-name="Link">
+                    <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[23.501px] not-italic relative shrink-0 text-[13.824px] text-[rgba(248,243,233,0.7)] whitespace-nowrap" data-node-id="37:678">
+                      Contact
+                    </p>
+                  </div>
+                </div>
+                <div className="col-3 content-stretch flex flex-col items-start justify-self-stretch relative row-1 self-stretch shrink-0" data-node-id="37:679" data-name="Container">
+                  <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="37:680" data-name="Heading 4">
+                    <p className="[word-break:break-word] font-['TacticSans-BlkIt:Italic'] leading-[normal] not-italic relative shrink-0 text-[#fbcc22] text-[20.736px] whitespace-nowrap" data-node-id="37:681">
+                      The rhythm
+                    </p>
+                  </div>
+                  <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="37:682" data-name="Paragraph">
+                    <div className="[word-break:break-word] font-['Inter:Bold'] font-bold leading-[0] not-italic relative shrink-0 text-[0px] text-[rgba(248,243,233,0.55)] whitespace-nowrap" data-node-id="37:683">
+                      <p className="leading-[23.501px] mb-0 text-[13.824px]">Monday Intercession</p>
+                      <p className="font-['Inter:Regular'] font-normal leading-[23.501px] text-[13.824px]">11 PM – 12 AM WAT</p>
+                    </div>
+                  </div>
+                  <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="37:684" data-name="Paragraph">
+                    <div className="[word-break:break-word] font-['Inter:Bold'] font-bold leading-[0] not-italic relative shrink-0 text-[0px] text-[rgba(248,243,233,0.55)] whitespace-nowrap" data-node-id="37:685">
+                      <p className="leading-[23.501px] mb-0 text-[13.824px]">Tuesday Bible Teaching</p>
+                      <p className="font-['Inter:Regular'] font-normal leading-[23.501px] text-[13.824px]">11 PM – 12 AM WAT</p>
+                    </div>
+                  </div>
+                  <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="37:686" data-name="Paragraph">
+                    <div className="[word-break:break-word] font-['Inter:Bold'] font-bold leading-[0] not-italic relative shrink-0 text-[0px] text-[rgba(248,243,233,0.55)] whitespace-nowrap" data-node-id="37:687">
+                      <p className="leading-[23.501px] mb-0 text-[13.824px]">Monthly Gathering</p>
+                      <p className="font-['Inter:Regular'] font-normal leading-[23.501px] text-[13.824px]">Lagos, Nigeria</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-4 content-stretch flex flex-col items-start justify-self-stretch relative row-1 self-stretch shrink-0" data-node-id="37:688" data-name="Container">
+                  <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="37:689" data-name="Heading 4">
+                    <p className="[word-break:break-word] font-['TacticSans-BlkIt:Italic'] leading-[normal] not-italic relative shrink-0 text-[#fbcc22] text-[20.736px] whitespace-nowrap" data-node-id="37:690">
+                      Stay rooted
+                    </p>
+                  </div>
+                  <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="37:691" data-name="Paragraph">
+                    <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[23.501px] not-italic relative shrink-0 text-[13.824px] text-[rgba(248,243,233,0.55)] w-[263.808px]" data-node-id="37:692">
+                      Receive a weekly word and prayer prompt in your inbox.
+                    </p>
+                  </div>
+                  <div className="content-stretch flex flex-col items-start pt-[16.128px] relative shrink-0 w-full" data-node-id="37:693" data-name="MiniSignup:margin">
+                    <div className="bg-[#fffdf8] border-[1.152px] border-[rgba(8,19,15,0.1)] border-solid content-stretch flex h-[61.272px] items-start overflow-clip relative rounded-[13.824px] shrink-0 w-full" data-node-id="37:694" data-name="MiniSignup">
+                      <div className="content-stretch flex flex-col h-full items-start justify-center overflow-clip px-[16.128px] py-[13.824px] relative shrink-0 w-[218.538px]" data-node-id="37:695" data-name="Email Input - Email address">
+                        <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[normal] not-italic relative shrink-0 text-[13.824px] text-[rgba(0,0,0,0.5)] w-full" data-node-id="37:696">
+                          Email address
+                        </p>
+                      </div>
+                      <div className="bg-[#fbcc22] content-stretch flex flex-col h-full items-center justify-center relative shrink-0 w-[42.264px]" data-node-id="37:697" data-name="Button - Subscribe">
+                        <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[31.334px] not-italic relative shrink-0 text-[18.432px] text-black text-center whitespace-nowrap" data-node-id="37:698">
+                          →
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="content-stretch flex flex-col h-[40.32px] items-start pt-[16.128px] relative shrink-0 w-[263.106px]" data-node-id="37:699" data-name="Link">
+                    <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[23.501px] not-italic relative shrink-0 text-[13.824px] text-[rgba(248,243,233,0.7)] whitespace-nowrap" data-node-id="37:700">
+                      hello@letspray.ng
+                    </p>
+                  </div>
+                  <div className="content-stretch flex flex-col h-[42.624px] items-start py-[9.216px] relative shrink-0 w-[263.106px]" data-node-id="37:701" data-name="Link">
+                    <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[23.501px] not-italic relative shrink-0 text-[13.824px] text-[rgba(248,243,233,0.7)] whitespace-nowrap" data-node-id="37:702">
+                      WhatsApp community →
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex flex-col items-center relative shrink-0 w-full" data-node-id="37:703" data-name="Container:margin">
+              <div className="border-[rgba(248,243,233,0.12)] border-b-[1.152px] border-solid border-t-[1.152px] content-stretch flex gap-[27.648px] h-[66.006px] items-start max-w-[1179.64794921875px] py-[23.04px] relative shrink-0 w-[1179.648px]" data-node-id="37:704" data-name="Container">
+                <div className="content-stretch flex flex-col h-full items-start relative shrink-0" data-node-id="37:705" data-name="Link">
+                  <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[17.626px] not-italic relative shrink-0 text-[10.368px] text-[rgba(248,243,233,0.45)] tracking-[1.3478px] uppercase whitespace-nowrap" data-node-id="37:706">
+                    Home
+                  </p>
+                </div>
+                <div className="content-stretch flex flex-col h-full items-start relative shrink-0" data-node-id="37:707" data-name="Link">
+                  <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[17.626px] not-italic relative shrink-0 text-[10.368px] text-[rgba(248,243,233,0.45)] tracking-[1.3478px] uppercase whitespace-nowrap" data-node-id="37:708">
+                    About
+                  </p>
+                </div>
+                <div className="content-stretch flex flex-col h-full items-start relative shrink-0" data-node-id="37:709" data-name="Link">
+                  <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[17.626px] not-italic relative shrink-0 text-[10.368px] text-[rgba(248,243,233,0.45)] tracking-[1.3478px] uppercase whitespace-nowrap" data-node-id="37:710">
+                    Prayer Sessions
+                  </p>
+                </div>
+                <div className="content-stretch flex flex-col h-full items-start relative shrink-0" data-node-id="37:711" data-name="Link">
+                  <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[17.626px] not-italic relative shrink-0 text-[10.368px] text-[rgba(248,243,233,0.45)] tracking-[1.3478px] uppercase whitespace-nowrap" data-node-id="37:712">
+                    Prayer Requests
+                  </p>
+                </div>
+                <div className="content-stretch flex flex-col h-full items-start relative shrink-0" data-node-id="37:713" data-name="Link">
+                  <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[17.626px] not-italic relative shrink-0 text-[10.368px] text-[rgba(248,243,233,0.45)] tracking-[1.3478px] uppercase whitespace-nowrap" data-node-id="37:714">
+                    Teachings
+                  </p>
+                </div>
+                <div className="content-stretch flex flex-col h-full items-start relative shrink-0" data-node-id="37:715" data-name="Link">
+                  <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[17.626px] not-italic relative shrink-0 text-[10.368px] text-[rgba(248,243,233,0.45)] tracking-[1.3478px] uppercase whitespace-nowrap" data-node-id="37:716">
+                    Events
+                  </p>
+                </div>
+                <div className="content-stretch flex flex-col h-full items-start relative shrink-0" data-node-id="37:717" data-name="Link">
+                  <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[17.626px] not-italic relative shrink-0 text-[10.368px] text-[rgba(248,243,233,0.45)] tracking-[1.3478px] uppercase whitespace-nowrap" data-node-id="37:718">
+                    IPC
+                  </p>
+                </div>
+                <div className="content-stretch flex flex-col h-full items-start relative shrink-0" data-node-id="37:719" data-name="Link">
+                  <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[17.626px] not-italic relative shrink-0 text-[10.368px] text-[rgba(248,243,233,0.45)] tracking-[1.3478px] uppercase whitespace-nowrap" data-node-id="37:720">
+                    Testimonies
+                  </p>
+                </div>
+                <div className="content-stretch flex flex-col h-full items-start relative shrink-0" data-node-id="37:721" data-name="Link">
+                  <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[17.626px] not-italic relative shrink-0 text-[10.368px] text-[rgba(248,243,233,0.45)] tracking-[1.3478px] uppercase whitespace-nowrap" data-node-id="37:722">
+                    Give
+                  </p>
+                </div>
+                <div className="content-stretch flex flex-col h-full items-start relative shrink-0" data-node-id="37:723" data-name="Link">
+                  <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[17.626px] not-italic relative shrink-0 text-[10.368px] text-[rgba(248,243,233,0.45)] tracking-[1.3478px] uppercase whitespace-nowrap" data-node-id="37:724">
+                    Contact
+                  </p>
+                </div>
+                <div className="content-stretch flex flex-col h-full items-start relative shrink-0" data-node-id="37:725" data-name="Link">
+                  <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[17.626px] not-italic relative shrink-0 text-[10.368px] text-[rgba(248,243,233,0.45)] tracking-[1.3478px] uppercase whitespace-nowrap" data-node-id="37:726">
+                    Privacy
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex flex-col items-center relative shrink-0 w-full" data-node-id="37:727" data-name="Container:margin">
+              <div className="content-stretch flex h-[45.27px] items-start justify-between max-w-[1179.64794921875px] pt-[27.648px] relative shrink-0 w-[1179.648px]" data-node-id="37:728" data-name="Container">
+                <div className="content-stretch flex flex-col h-full items-start relative shrink-0" data-node-id="37:729" data-name="Text">
+                  <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[17.626px] not-italic relative shrink-0 text-[10.368px] text-[rgba(248,243,233,0.45)] tracking-[1.3478px] uppercase whitespace-nowrap" data-node-id="37:730">{`© 2026 Let's Pray. All rights reserved.`}</p>
+                </div>
+                <div className="content-stretch flex flex-col h-full items-start relative shrink-0" data-node-id="37:731" data-name="Text">
+                  <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[17.626px] not-italic relative shrink-0 text-[10.368px] text-[rgba(248,243,233,0.45)] tracking-[1.3478px] uppercase whitespace-nowrap" data-node-id="37:732">
+                    Lagos, Nigeria · English (en-NG)
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="-translate-x-1/2 absolute bg-[rgba(0,0,0,0.1)] h-[70px] left-1/2 overflow-clip rounded-[150px] top-[31px] w-[1240px]" data-node-id="26:6">
+        <div className="-translate-x-1/2 absolute content-stretch flex gap-[218px] items-center left-[calc(50%-0.16px)] top-[-2px]" data-node-id="30:11">
+          <div className="h-[70px] relative shrink-0 w-[55.125px]" data-node-id="30:6" data-name="Let’s Pray Movement logo 1">
+            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgLetsPrayMovementLogo2} />
+          </div>
+          <div className="content-stretch flex gap-[26px] items-center relative shrink-0" data-node-id="26:9" data-name="Navigation - Primary navigation">
+            <div className="content-stretch flex flex-col items-start py-[25px] relative shrink-0" data-node-id="26:10" data-name="Link">
+              <p className="[word-break:break-word] font-['Inter:Medium'] font-medium leading-[22.1px] not-italic relative shrink-0 text-[13px] text-white whitespace-nowrap" data-node-id="26:11">
+                About
+              </p>
+            </div>
+            <div className="h-[72.094px] relative shrink-0 w-[41.531px]" data-node-id="26:12" data-name="Container">
+              <div className="absolute content-stretch flex items-center left-[2px] top-[25px]" data-node-id="26:13">
+                <p className="[word-break:break-word] font-['Inter:Medium'] font-medium leading-[22.1px] not-italic relative shrink-0 text-[13px] text-center text-white whitespace-nowrap" data-node-id="26:14">{`Pray `}</p>
+                <div className="flex items-center justify-center relative shrink-0 size-[12.703px]" data-node-id="26:15">
+                  <div className="flex-none rotate-[178.38deg]">
+                    <div className="relative size-[12.359px]" data-name="chevron-up">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgChevronUp} />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="h-[72.094px] relative shrink-0 w-[49.078px]" data-node-id="26:17" data-name="Container">
+              <div className="absolute content-stretch flex gap-[2px] items-center left-px top-[25px]" data-node-id="26:18">
+                <p className="[word-break:break-word] font-['Inter:Medium'] font-medium leading-[22.1px] not-italic relative shrink-0 text-[13px] text-center text-white whitespace-nowrap" data-node-id="26:19">{`Learn `}</p>
+                <div className="flex items-center justify-center relative shrink-0 size-[12.703px]" data-node-id="26:20">
+                  <div className="flex-none rotate-[178.38deg]">
+                    <div className="relative size-[12.359px]" data-name="chevron-up">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgChevronUp} />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="h-[72.094px] relative shrink-0 w-[55.406px]" data-node-id="26:22" data-name="Container">
+              <div className="absolute content-stretch flex items-center left-[2px] top-[25px]" data-node-id="26:23">
+                <p className="[word-break:break-word] font-['Inter:Medium'] font-medium leading-[22.1px] not-italic relative shrink-0 text-[13px] text-center text-white whitespace-nowrap" data-node-id="26:24">{`Events `}</p>
+                <div className="flex items-center justify-center relative shrink-0 size-[12.703px]" data-node-id="26:25">
+                  <div className="flex-none rotate-[178.38deg]">
+                    <div className="relative size-[12.359px]" data-name="chevron-up">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgChevronUp} />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="h-[72.094px] relative shrink-0 w-[85.125px]" data-node-id="26:27" data-name="Container">
+              <div className="absolute content-stretch flex items-center left-[2px] top-[25px]" data-node-id="26:28">
+                <p className="[word-break:break-word] font-['Inter:Medium'] font-medium leading-[22.1px] not-italic relative shrink-0 text-[13px] text-center text-white whitespace-nowrap" data-node-id="26:29">{`Community `}</p>
+                <div className="flex items-center justify-center relative shrink-0 size-[12.703px]" data-node-id="26:30">
+                  <div className="flex-none rotate-[178.38deg]">
+                    <div className="relative size-[12.359px]" data-name="chevron-up">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgChevronUp} />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="h-[72.094px] relative shrink-0 w-[41.422px]" data-node-id="26:32" data-name="Container">
+              <div className="absolute content-stretch flex items-center left-[2px] top-[25px]" data-node-id="26:33">
+                <p className="[word-break:break-word] font-['Inter:Medium'] font-medium leading-[22.1px] not-italic relative shrink-0 text-[13px] text-center text-white whitespace-nowrap" data-node-id="26:34">{`Give `}</p>
+                <div className="flex items-center justify-center relative shrink-0 size-[12.703px]" data-node-id="26:35">
+                  <div className="flex-none rotate-[178.38deg]">
+                    <div className="relative size-[12.359px]" data-name="chevron-up">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgChevronUp} />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="bg-[#fbcc22] border-[#fbcc22] border-[1.553px] border-solid content-stretch flex h-[43.495px] items-center justify-center px-[24.854px] py-[17.087px] relative rounded-[7.767px] shrink-0 w-[160px]" data-node-id="30:8">
+            <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] font-['Segoe_UI:Semibold'] leading-[normal] not-italic relative shrink-0 text-[13.981px] text-black whitespace-nowrap" data-node-id="30:9">
+              Join the community
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}

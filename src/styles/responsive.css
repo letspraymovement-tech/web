@@ -1,0 +1,816 @@
+@media (min-width:1600px) {
+  .home-hero>.hero-background {
+    height: 110%;
+    object-position: center 40%;
+  }
+}
+
+@media (max-width:1200px) {
+  .site-header {
+    padding-inline: 28px;
+    gap: 20px;
+  }
+  .primary-navigation {
+    gap: 18px;
+  }
+  .about-container {
+    grid-template-columns: 1.1fr 1fr;
+    gap: 50px;
+  }
+  .about-copy h2 {
+    font-size: 49px;
+  }
+  .minister-figure figcaption {
+    right: -10px;
+  }
+  .session-cards {
+    gap: 24px;
+  }
+  .section-topline {
+    align-items: flex-start;
+  }
+  .section-heading h2 {
+    font-size: 39px;
+  }
+  .sessions-section .section-topline>.button {
+    margin-top: 45px;
+  }
+  .movements-section .section-heading h2 {
+    font-size: 44px;
+  }
+  .footer-grid {
+    gap: 30px;
+  }
+  .footer-intro .footer-motto {
+    white-space: normal;
+  }
+  .conference-content h2 {
+    font-size: 58px;
+  }
+  .registration-layout {
+    grid-template-columns: .85fr 1.4fr;
+  }
+  .expect-card {
+    padding: 35px;
+  }
+  .session-row {
+    grid-template-columns: 110px 1fr 160px;
+  }
+}
+
+@media (max-width:900px) {
+  .sessions-hero h1, .sessions-hero h1 span { font-size: 58px; }
+  .site-header {
+    top: 20px;
+    height: 66px;
+    width: calc(100% - 40px);
+    padding-inline: 24px;
+  }
+  .brand img {
+    height: 64px;
+    width: 50px;
+  }
+  .menu-toggle {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: none;
+    color: white;
+    margin-left: auto;
+    font-size: 14px;
+  }
+  .menu-toggle span {
+    font-size: 22px;
+  }
+  .header-join {
+    font-size: 12px;
+    padding: 10px 13px;
+    min-height: 40px;
+  }
+  .primary-navigation {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 77px;
+    padding: 24px;
+    background: var(--green);
+    border-radius: 20px;
+    box-shadow: 0 15px 30px #0003;
+    align-items: stretch;
+    max-height: 75vh;
+    overflow: auto;
+  }
+  .primary-navigation.is-open {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .primary-navigation>a {
+    padding: 12px 0;
+  }
+  .nav-dropdown summary {
+    justify-content: space-between;
+  }
+  .dropdown-panel {
+    position: static;
+    width: 100%;
+    background: #183025;
+    color: white;
+    border-color: #ffffff26;
+    box-shadow: none;
+  }
+  .hero-content h1,.page-hero h1 {
+    font-size: 58px;
+  }
+  .home-hero {
+    height: 840px;
+  }
+  .hero-content {
+    padding-top: 230px;
+  }
+  .meeting-content {
+    padding: 50px 40px;
+  }
+  .meeting-content h2 {
+    font-size: 34px;
+  }
+  .meeting-photo {
+    right: -100px;
+  }
+  .sessions-section {
+    height: auto;
+    padding: 55px 0 80px;
+  }
+  .section-topline {
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+  .sessions-section .section-topline {
+    min-height: 0;
+  }
+  .sessions-section .section-topline>.button {
+    margin: 0;
+  }
+  .session-cards {
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 40px;
+  }
+  .session-card {
+    height: 360px;
+  }
+  .about-section {
+    padding: 75px 0;
+    min-height: 0;
+  }
+  .about-container {
+    gap: 45px;
+    grid-template-columns: 1.1fr 1fr;
+  }
+  .about-copy h2 {
+    font-size: 38px;
+    margin-bottom: 16px;
+  }
+  .about-copy>p:not(.eyebrow) {
+    font-size: 15px;
+  }
+  .minister-figure>img {
+    height: 440px;
+  }
+  .minister-figure figcaption {
+    width: 260px;
+    padding: 18px;
+  }
+  .minister-figure figcaption strong {
+    font-size: 17px;
+  }
+  .values {
+    gap: 12px;
+    flex-wrap: wrap;
+    font-size: 8px;
+  }
+  .movements-section {
+    min-height: 0;
+    padding: 80px 0;
+  }
+  .movements-grid {
+    grid-template-columns: repeat(2,1fr);
+    gap: 35px;
+  }
+  .movements-grid article:nth-child(2) {
+    border: 0;
+  }
+  .movements-grid article {
+    margin-right: 0;
+  }
+  .conference-card {
+    padding: 55px;
+    min-height: 500px;
+  }
+  .conference-content h2 {
+    font-size: 49px;
+  }
+  .conference-content>p:not(.eyebrow) {
+    font-size: 17px;
+  }
+  .giving-content h2 {
+    font-size: 50px;
+  }
+  .giving-content>p:not(.eyebrow) {
+    max-width: 530px;
+  }
+  .giving-section {
+    min-height: 640px;
+  }
+  .giving-content {
+    padding-top: 130px;
+  }
+  .testimonies-section {
+    padding: 80px 0;
+    min-height: 0;
+  }
+  .testimonies-section .section-topline {
+    min-height: 0;
+  }
+  .testimonies-section .section-heading h2 {
+    font-size: 44px;
+  }
+  .testimony-grid {
+    gap: 16px;
+  }
+  .testimony-card {
+    padding: 24px;
+  }
+  .testimony-card blockquote {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  .testimony-card figcaption {
+    flex-wrap: wrap;
+  }
+  .community-section {
+    padding: 80px 0;
+  }
+  .community-content h2 {
+    font-size: 33px;
+  }
+  .community-band {
+    padding: 80px 24px;
+    min-height: 420px;
+  }
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 45px;
+  }
+  .footer-grid p {
+    max-width: 330px;
+  }
+  .footer-intro {
+    max-width: 330px;
+  }
+  .session-row {
+    grid-template-columns: 95px 1fr;
+    gap: 25px;
+    padding: 30px;
+  }
+  .session-actions {
+    grid-column: 2;
+    align-items: flex-start;
+  }
+  .session-actions details {
+    width: 100%;
+  }
+  .session-actions summary {
+    max-width: 160px;
+  }
+  .registration-layout {
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
+  .expect-card {
+    max-width: none;
+  }
+  .expect-card h2 br {
+    display: none;
+  }
+  .expect-card h2 {
+    font-size: 45px;
+  }
+  .expect-card h3 {
+    margin: 22px 0 14px;
+  }
+  .registration-form {
+    max-width: 760px;
+    width: 100%;
+    margin: auto;
+  }
+  .steps-grid article {
+    padding: 22px;
+  }
+  .steps-grid h3 {
+    font-size: 21px;
+  }
+}
+
+@media (max-width:600px) {
+  .sessions-hero h1, .sessions-hero h1 span { font-size: 44px; }
+  .sessions-hero > .hero-background { object-fit: cover; }
+  .registration-hero .hero-background { width: 100%; height: 100%; left: 0; top: 0; object-fit: cover; }
+  .about-copy {
+    min-width: 0;
+  }
+
+  .about-copy h2 {
+    width: auto;
+  }
+  .container,.wide-container,.about-container {
+    width: calc(100% - 40px);
+  }
+  .site-header {
+    padding-inline: 16px;
+    gap: 14px;
+  }
+  .header-join {
+    font-size: 10px;
+    padding: 9px;
+    min-height: 36px;
+  }
+  .menu-toggle {
+    font-size: 0;
+    gap: 0;
+  }
+  .menu-toggle span {
+    font-size: 24px;
+  }
+  .hero-content {
+    padding-top: 210px;
+    width: calc(100% - 32px);
+  }
+  .hero-content h1 {
+    font-size: 40px;
+    letter-spacing: -1px;
+    line-height: 1.1;
+  }
+  .hero-content>p {
+    font-size: 15px;
+    line-height: 1.7;
+    max-width: 370px;
+  }
+  .hero-content .hero-tagline {
+    font-size: 8px;
+    letter-spacing: 1.6px;
+    max-width: 300px;
+  }
+  .hero-content .button-row {
+    gap: 10px;
+  }
+  .hero-content .button {
+    font-size: 10px;
+    padding: 12px 15px;
+    min-height: 46px;
+  }
+  .home-hero {
+    height: 775px;
+  }
+  .home-hero>.hero-background {
+    height: 100%;
+    object-position: 50% 0;
+    object-fit: cover;
+  }
+  .hero-shade {
+    inset: 0;
+    background: linear-gradient(#0002,transparent 20%,#ad3303 110%);
+  }
+  .meeting-section {
+    height: 330px;
+  }
+  .meeting-card {
+    width: calc(100% - 32px);
+    height: 355px;
+    margin-top: -65px;
+    border-radius: 20px;
+  }
+  .meeting-content {
+    padding: 35px 24px;
+  }
+  .meeting-content h2 {
+    white-space: normal;
+    max-width: 290px;
+    font-size: 30px;
+    margin-top: 28px;
+  }
+  .meeting-date {
+    max-width: 260px;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-top: 12px;
+  }
+  .meeting-photo {
+    right: -235px;
+    opacity: .6;
+  }
+  .countdown {
+    margin-top: 22px;
+  }
+  .countdown>div {
+    width: 54px;
+    height: 74px;
+    padding-top: 11px;
+  }
+  .countdown strong {
+    font-size: 23px;
+  }
+  .countdown span {
+    font-size: 8px;
+    margin-top: 5px;
+  }
+  .eyebrow {
+    font-size: 9px;
+    letter-spacing: 2px;
+  }
+  .section-heading h2 {
+    font-size: 32px;
+    margin-top: 18px;
+  }
+  .section-heading>p:last-child:not(.eyebrow) {
+    font-size: 15px;
+  }
+  .sessions-section {
+    padding: 45px 0 60px;
+  }
+  .session-cards {
+    gap: 16px;
+    margin-top: 30px;
+  }
+  .session-card {
+    height: 245px;
+  }
+  .session-card-title {
+    left: 15px;
+    right: 12px;
+    bottom: 20px;
+    gap: 6px;
+  }
+  .session-card-title h3 {
+    font-size: 18px;
+  }
+  .session-card-title img {
+    width: 24px;
+    height: 24px;
+  }
+  .session-day {
+    right: 15px;
+    top: 20px;
+    font-size: 8px;
+  }
+  .about-section {
+    padding: 55px 0 75px;
+  }
+  .about-container {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 65px;
+  }
+  .about-copy h2 {
+    font-size: 40px;
+    max-width: 390px;
+  }
+  .about-copy>p:not(.eyebrow) {
+    font-size: 16px;
+  }
+  .about-copy blockquote {
+    font-size: 22px;
+  }
+  .minister-figure {
+    margin: 0 auto;
+    width: calc(100% - 30px);
+    max-width: 380px;
+  }
+  .minister-figure>img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 420/525;
+  }
+  .minister-figure figcaption {
+    right: -15px;
+    bottom: -25px;
+  }
+  .values {
+    font-size: 9px;
+    gap: 20px;
+  }
+  .movements-section {
+    padding: 60px 0;
+  }
+  .movements-section .section-heading h2 {
+    font-size: 34px;
+  }
+  .movements-section .section-heading>p:last-child {
+    font-size: 15px;
+  }
+  .movements-grid {
+    margin-top: 35px;
+    padding-top: 28px;
+    gap: 30px 20px;
+  }
+  .movements-grid article {
+    padding-right: 14px;
+  }
+  .movements-grid h3 {
+    font-size: 24px;
+  }
+  .movements-grid p {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+  .movement-number {
+    font-size: 28px;
+  }
+  .explore-link {
+    font-size: 10px;
+    gap: 10px;
+    margin-top: 12px;
+  }
+  .conference-section {
+    padding: 45px 0;
+    min-height: 0;
+  }
+  .conference-card {
+    padding: 40px 24px;
+    border-radius: 24px;
+    min-height: 490px;
+  }
+  .conference-content h2 {
+    font-size: 37px;
+    margin-top: 22px;
+  }
+  .conference-content>p:not(.eyebrow) {
+    font-size: 16px;
+    line-height: 1.7;
+    margin-top: 14px;
+  }
+  .conference-content .eyebrow {
+    font-size: 8px;
+    letter-spacing: 1.4px;
+  }
+  .event-meta {
+    font-size: 8px;
+    gap: 15px;
+    margin-top: 28px;
+  }
+  .conference-content .button-row {
+    margin-top: 30px;
+  }
+  .conference-content .button {
+    font-size: 10px;
+    padding: 12px 18px;
+  }
+  .giving-section {
+    min-height: 580px;
+  }
+  .giving-image {
+    left: 5%;
+    width: 140%;
+    height: 100%;
+    object-fit: cover;
+    opacity: .7;
+  }
+  .giving-shade {
+    background: linear-gradient(90deg,#000e,#0004);
+  }
+  .giving-content {
+    padding-top: 100px;
+    padding-bottom: 80px;
+  }
+  .giving-content h2 {
+    font-size: 39px;
+  }
+  .giving-content>p:not(.eyebrow) {
+    font-size: 16px;
+    line-height: 1.8;
+  }
+  .testimonies-section {
+    padding: 60px 0;
+  }
+  .testimonies-section .section-heading h2 {
+    font-size: 34px;
+  }
+  .testimonies-section .section-topline {
+    margin-bottom: 30px;
+  }
+  .testimony-grid {
+    grid-template-columns: 1fr;
+  }
+  .testimony-card {
+    padding: 28px;
+  }
+  .testimony-card blockquote {
+    font-size: 20px;
+    line-height: 1.6;
+  }
+  .testimony-card figcaption {
+    flex-wrap: nowrap;
+  }
+  .community-section {
+    padding: 55px 0;
+  }
+  .community-band {
+    padding: 60px 22px;
+    min-height: 420px;
+    border-radius: 25px;
+  }
+  .community-content .eyebrow {
+    font-size: 9px;
+    letter-spacing: 2px;
+  }
+  .community-content h2 {
+    font-size: 28px;
+    line-height: 1.15;
+  }
+  .community-content h2 br {
+    display: none;
+  }
+  .community-content .button-row {
+    gap: 12px;
+    flex-direction: column;
+    margin-top: 27px;
+  }
+  .community-content .button {
+    font-size: 10px;
+    min-width: 200px !important;
+  }
+  .serif-note {
+    font-size: 14px;
+  }
+  .site-footer {
+    padding: 55px 0 25px;
+  }
+  .footer-grid {
+    gap: 35px 25px;
+    padding-bottom: 40px;
+  }
+  .footer-grid>div:first-child,.footer-grid>div:last-child {
+    grid-column: 1/-1;
+  }
+  .footer-intro {
+    max-width: 100%;
+  }
+  .footer-grid h3 {
+    font-size: 20px;
+  }
+  .footer-grid p,.footer-grid ul {
+    font-size: 13px;
+  }
+  .footer-brand strong {
+    font-size: 24px;
+  }
+  .footer-brand img {
+    width: 40px;
+    height: 51px;
+  }
+  .footer-intro>p {
+    max-width: 350px;
+  }
+  .mini-signup {
+    max-width: 350px;
+  }
+  .footer-navigation {
+    gap: 20px;
+  }
+  .footer-navigation a,.footer-navigation button {
+    font-size: 9px;
+  }
+  .footer-bottom {
+    flex-direction: column;
+    font-size: 8px;
+    gap: 12px;
+  }
+  .contact-dialog {
+    padding: 42px 25px 28px;
+  }
+  .contact-dialog h2 {
+    font-size: 28px;
+  }
+  .sessions-hero {
+    min-height: 680px;
+  }
+  .page-hero-content {
+    padding: 220px 20px 80px;
+  }
+  .page-hero h1 {
+    font-size: 44px;
+  }
+  .page-hero-content>p {
+    font-size: 16px;
+    line-height: 1.8;
+  }
+  .session-list-section {
+    padding: 55px 0;
+  }
+  .session-row {
+    padding: 24px;
+    grid-template-columns: 1fr;
+    gap: 18px;
+    border-radius: 20px;
+  }
+  .session-number {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+  }
+  .session-number>span {
+    font-size: 38px;
+  }
+  .session-number small {
+    margin: 0;
+  }
+  .session-description h2 {
+    font-size: 27px;
+  }
+  .session-description p {
+    font-size: 15px;
+  }
+  .session-actions {
+    grid-column: auto;
+    display: block;
+  }
+  .session-actions>.button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .session-actions summary {
+    max-width: none;
+  }
+  .join-section {
+    padding: 55px 0;
+  }
+  .join-section .section-heading h2 {
+    font-size: 34px;
+  }
+  .steps-grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+    margin-top: 28px;
+  }
+  .steps-grid article {
+    padding: 25px;
+  }
+  .steps-grid h3 {
+    font-size: 24px;
+  }
+  .timezone-note {
+    padding: 25px;
+    margin-top: 28px;
+  }
+  .timezone-note p:not(.eyebrow) {
+    font-size: 14px;
+  }
+  .registration-hero {
+    height: 530px;
+  }
+  .registration-hero .page-hero-content {
+    padding-top: 230px;
+  }
+  .registration-hero h1 {
+    font-size: 58px;
+  }
+  .registration-section {
+    padding: 55px 0;
+  }
+  .expect-card {
+    padding: 30px;
+  }
+  .expect-card h2 {
+    font-size: 40px;
+  }
+  .expect-card h3 {
+    font-size: 21px;
+  }
+  .expect-card>p:not(.eyebrow) {
+    font-size: 16px;
+  }
+  .registration-form {
+    padding: 26px 20px;
+  }
+  .registration-form>h2 {
+    font-size: 14px;
+    margin: 12px 0 30px;
+  }
+  .form-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .form-grid input,.form-grid textarea {
+    padding: 15px;
+    font-size: 16px;
+  }
+  .consent-options {
+    padding: 18px;
+  }
+  .consent-options label {
+    letter-spacing: .5px;
+  }
+  .registration-submit {
+    min-height: 52px;
+  }
+}
+

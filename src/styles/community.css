@@ -1,0 +1,77 @@
+.community-section {
+  padding: 110px 0;
+}
+
+.community-band {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  min-height: 459px;
+  border-radius: 36px;
+  background: linear-gradient(#df5903,#793002);
+  padding: 97px 34px;
+  text-align: center;
+  color: #f8f3e9;
+}
+
+.community-content {
+  position: relative;
+  z-index: 1;
+}
+
+.community-content .eyebrow {
+  justify-content: center;
+  color: #e6c47a;
+  font-size: 12.6px;
+  letter-spacing: 3px;
+}
+
+.community-content h2 {
+  font-size: 40px;
+  line-height: 1;
+  margin-top: 23px;
+}
+
+.community-content .button-row {
+  justify-content: center;
+  margin-top: 23px;
+}
+
+.community-content .button:first-child {
+  min-width: 221px;
+}
+
+.serif-note {
+  font: italic 16px Georgia,serif;
+  color: #e6c47a;
+  margin-top: 23px;
+}
+
+.band-texture {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  mix-blend-mode: overlay;
+  background-image: url('/assets/imgTexture.png');
+  background-size: 800px;
+  mask-repeat: no-repeat;
+  mask-size: 850px 850px;
+  pointer-events: none;
+  opacity: .8;
+  z-index: 0;
+}
+
+.band-texture--left {
+  left: -162px;
+  top: -150px;
+  mask-image: url('/assets/imgChess.svg');
+  mask-position: -189px -156px;
+}
+
+.band-texture--right {
+  right: -135px;
+  top: 30px;
+  mask-image: url('/assets/imgChess1.svg');
+  mask-position: -59px -184px;
+}
+
