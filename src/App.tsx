@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Header } from './components/layout/Header';
 import { Footer } from './components/layout/Footer';
 import { CommunityBand } from './components/CommunityBand';
@@ -13,6 +13,20 @@ export default function App() {
     const [topic, setTopic] = useState<ContactTopic | null>(null);
     const path = window.location.pathname.replace(/\/$/, '');
     const openContact = (value: ContactTopic = 'community') => setTopic(value);
+    useEffect(() => {
+      const scrollToHash = () => {
+        const id = decodeURIComponent(window.location.hash.slice(1));
+        if (!id) return;
+        requestAnimationFrame(() => {
+          requestAnimationFrame(() => {
+            document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          });
+        });
+      };
+      scrollToHash();
+      window.addEventListener('hashchange', scrollToHash);
+      return () => window.removeEventListener('hashchange', scrollToHash);
+    }, []);
     return <>
     <a className="skip-link" href="#main">Skip to content</a>
     <Header />
