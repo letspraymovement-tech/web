@@ -34,17 +34,19 @@ export function Footer({
             <p className="footer-motto">By all means, prayer must go on!</p>
             <div className="social-links">
               {[
-                ["Instagram", "imgAntDesignInstagramFilled"],
-                ["Facebook", "imgBrandicoFacebookRect"],
-                ["YouTube", "imgAntDesignYoutubeFilled"],
-              ].map(([name, image]) => (
-                <button
+                ["Instagram", "imgAntDesignInstagramFilled", "https://www.instagram.com/lets_pray_movement?lqvp=NXZxYnljeDA2bWV5&utm_source=qr"],
+                ["Facebook", "imgBrandicoFacebookRect", "https://www.facebook.com/profile.php?id=61554763740669"],
+                ["YouTube", "imgAntDesignYoutubeFilled", "https://youtube.com/@ochuikechukwu3739?si=DYeNyzPL3NgaypmM"],
+              ].map(([name, image, href]) => (
+                <a
                   key={name}
-                  onClick={() => onContact("community")}
-                  aria-label={`Ask for the ${name} community link`}
+                  href={href}
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label={`Visit our ${name} page`}
                 >
                   <img src={`/assets/${image}.svg`} alt="" />
-                </button>
+                </a>
               ))}
             </div>
           </div>
