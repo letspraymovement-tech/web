@@ -32,7 +32,7 @@ export const sessions = [
     time: "11 PM – 12 AM (WAT)",
   },
   {
-    title: "Rooted Messages",
+    title: "Online Bible Study",
     day: "Weekly",
     format: "Weekly",
     image: "/assets/imgFrame14.png",

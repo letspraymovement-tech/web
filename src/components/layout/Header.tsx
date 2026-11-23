@@ -18,7 +18,7 @@ const navigation = [
   {
     label: "Events",
     links: [
-      ["IPC 2026", "/ipc"],
+      ["IPC 2026", "/IPC2026"],
       ["Monthly Gathering", "/prayer-sessions#session-4"],
     ],
   },

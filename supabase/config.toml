@@ -1,0 +1,5 @@
+[functions.verify-payment]
+verify_jwt = true
+
+[functions.newsletter-subscribe]
+verify_jwt = false

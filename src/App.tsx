@@ -17,7 +17,7 @@ export default function App() {
     <a className="skip-link" href="#main">Skip to content</a>
     <Header />
     <main id="main">
-      {path === '/prayer-sessions' ? <SessionsPage onJoin={() => { window.location.href = whatsappGroupUrl; }}/> : path === '/ipc' ? <RegistrationPage /> : <HomePage onContact={openContact}/>}
+      {path === '/prayer-sessions' ? <SessionsPage onJoin={() => { window.location.href = whatsappGroupUrl; }}/> : path === '/IPC2026' ? <RegistrationPage /> : <HomePage onContact={openContact}/>}
       <CommunityBand />
     </main>
     <Footer onContact={openContact}/>

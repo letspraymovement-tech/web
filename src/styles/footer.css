@@ -123,6 +123,14 @@
   color: #000;
 }
 
+.newsletter-status {
+  min-height: 1.3em;
+  margin: 8px 0 0;
+  color: var(--cream, #f8f3e9);
+  font-size: 12px;
+  line-height: 1.4;
+}
+
 .footer-contact {
   display: block;
   margin-top: 16px;

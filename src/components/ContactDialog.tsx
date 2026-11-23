@@ -55,11 +55,11 @@ export function ContactDialog({
       <p>{content.text}</p>
       <a
         className="button"
-        href={`mailto:hello@letspray.ng?subject=${encodeURIComponent(content.subject)}`}
+        href={`mailto:letspraymovement4@gmail.com?subject=${encodeURIComponent(content.subject)}`}
       >
         Email the team <span aria-hidden="true">↗</span>
       </a>
-      <p className="dialog-email">hello@letspray.ng</p>
+      <p className="dialog-email">letspraymovement4@gmail.com</p>
     </dialog>
   );
 }

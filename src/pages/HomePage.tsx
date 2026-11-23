@@ -57,10 +57,7 @@ export function HomePage({
           </div>
           <div className="meeting-content">
             <Eyebrow light>Next meeting</Eyebrow>
-            <h2 id="meeting-title">
-              <span>Monday</span> Prayer Meeting
-            </h2>
-            <Countdown />
+            <Countdown titleId="meeting-title" />
           </div>
         </div>
       </section>
@@ -95,11 +92,7 @@ export function HomePage({
                 <span className="session-day">{session.day}</span>
                 <div className="session-card-title">
                   <h3>
-                    {index === 2
-                      ? "Online Bible Teaching"
-                      : index === 3
-                        ? "Monthly Physical Gathering"
-                        : session.title}
+                    {index === 3 ? "Monthly Physical Gathering" : session.title}
                   </h3>
                   <img src={assets.arrow} alt="" />
                 </div>
@@ -199,12 +192,12 @@ export function HomePage({
               <span>Registration free</span>
             </div>
             <div className="button-row">
-              <a className="button button--pill" href="/ipc">
+              <a className="button button--pill" href="/IPC2026">
                 Register now
               </a>
               <a
                 className="button button--outline button--pill"
-                href="/ipc#registration"
+                href="/IPC2026#registration"
               >
                 Learn more
               </a>

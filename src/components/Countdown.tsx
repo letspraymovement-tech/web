@@ -1,14 +1,20 @@
 import { useEffect, useState } from "react";
-function nextMonday() {
-  const now = new Date(),
-    target = new Date(now);
-  target.setUTCHours(22, 0, 0, 0);
-  target.setUTCDate(target.getUTCDate() + ((1 - now.getUTCDay() + 7) % 7));
-  if (target <= now) target.setUTCDate(target.getUTCDate() + 7);
-  return target;
+const meetingDays = [1, 2, 5]; // Monday, Tuesday, Friday
+
+function nextMeeting(from = new Date()) {
+  return meetingDays
+    .map((day) => {
+      const target = new Date(from);
+      target.setUTCHours(22, 0, 0, 0); // 11 PM in Lagos (WAT, UTC+1)
+      target.setUTCDate(target.getUTCDate() + ((day - from.getUTCDay() + 7) % 7));
+      if (target <= from) target.setUTCDate(target.getUTCDate() + 7);
+      return target;
+    })
+    .sort((a, b) => a.getTime() - b.getTime())[0];
 }
-export function Countdown() {
-  const [target, setTarget] = useState(nextMonday);
+
+export function Countdown({ titleId }: { titleId: string }) {
+  const [target, setTarget] = useState(nextMeeting);
   const [now, setNow] = useState(Date.now);
   useEffect(() => {
     const id = window.setInterval(() => {
@@ -25,8 +31,15 @@ export function Countdown() {
     Math.floor(seconds / 60) % 60,
     seconds % 60,
   ];
+  const day = target.toLocaleDateString("en-GB", {
+    weekday: "long",
+    timeZone: "Africa/Lagos",
+  });
   return (
     <>
+      <h2 id={titleId}>
+        <span>{day}</span> Meeting
+      </h2>
       <p className="meeting-date">
         {target.toLocaleDateString("en-GB", {
           weekday: "long",
@@ -38,7 +51,7 @@ export function Countdown() {
       </p>
       <div
         className="countdown"
-        aria-label="Time until next Monday prayer meeting"
+        aria-label={`Time until the next ${day} meeting`}
       >
         {["Days", "Hrs", "Min", "Sec"].map((label, index) => (
           <div key={label}>

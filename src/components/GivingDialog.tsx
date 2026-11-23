@@ -44,7 +44,8 @@ export function GivingDialog({ onClose }: { onClose: () => void }) {
   const limits = currency === "NGN" ? { min: 100, max: 10000000, placeholder: "5000" } : { min: 1, max: 100000, placeholder: "50" };
   const publicKey = import.meta.env.VITE_FLUTTERWAVE_PUBLIC_KEY;
   const verifyUrl = import.meta.env.VITE_PAYMENT_VERIFY_URL;
-  const configured = Boolean(publicKey && verifyUrl);
+  const supabasePublishableKey = import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY;
+  const configured = Boolean(publicKey && verifyUrl && supabasePublishableKey);
   useEffect(() => { dialog.current?.showModal(); }, []);
 
   return <dialog ref={dialog} className="contact-dialog giving-dialog"
@@ -82,7 +83,11 @@ export function GivingDialog({ onClose }: { onClose: () => void }) {
               try {
                 if (!payment.transaction_id) throw new Error("Missing transaction ID");
                 const response = await fetch(verifyUrl, {
-                  method: "POST", headers: { "Content-Type": "text/plain;charset=utf-8" },
+                  method: "POST",
+                  headers: {
+                    "Content-Type": "application/json",
+                    apikey: supabasePublishableKey,
+                  },
                   body: JSON.stringify({ transactionId: payment.transaction_id, reference, amount, currency }),
                 });
                 const result = await response.json();
@@ -91,7 +96,7 @@ export function GivingDialog({ onClose }: { onClose: () => void }) {
                 setMessage("Thank you! Your gift of " + new Intl.NumberFormat("en-NG", { style: "currency", currency }).format(amount) + " has been confirmed.");
               } catch {
                 setComplete(true);
-                setMessage(`We could not confirm this payment yet. Please check your email receipt or contact hello@letspray.ng with reference ${reference} before paying again.`);
+                setMessage(`We could not confirm this payment yet. Please check your email receipt or contact letspraymovement4@gmail.com with reference ${reference} before paying again.`);
               } finally { setBusy(false); }
             },
             onclose: () => {
@@ -119,7 +124,7 @@ export function GivingDialog({ onClose }: { onClose: () => void }) {
           </select></label>
           <label>Amount ({currency})<input key={currency} name="amount" type="number" inputMode="decimal" min={limits.min} max={limits.max} step="0.01" placeholder={limits.placeholder} required /></label>
         </fieldset>
-        {!configured && <p>Online giving will be available soon. Contact <a href="mailto:hello@letspray.ng">hello@letspray.ng</a> for giving details.</p>}
+        {!configured && <p>Online giving will be available soon. Contact <a href="mailto:letspraymovement4@gmail.com">letspraymovement4@gmail.com</a> for giving details.</p>}
         <button className="button" disabled={busy || !configured}>{busy ? "Please wait…" : "Continue to Flutterwave"}</button>
       </form>}
     <p role="status" className="giving-status">{message}</p>

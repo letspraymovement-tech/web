@@ -1,19 +1,22 @@
 import { assets, whatsappGroupUrl } from "../../data/content";
 import type { ContactTopic } from "../ContactDialog";
+import { useState } from "react";
 const links = [
   ["About", "/#about"],
   ["Prayer Sessions", "/prayer-sessions"],
   ["Teachings", "/prayer-sessions#session-2"],
-  ["IPC", "/ipc"],
+  ["IPC", "/IPC2026"],
   ["Schools Invasion", "/#movements"],
   ["Give", "/#give"],
-  ["Contact", "mailto:hello@letspray.ng"],
+  ["Contact", "mailto:letspraymovement4@gmail.com"],
 ];
 export function Footer({
   onContact,
 }: {
   onContact: (topic: ContactTopic) => void;
 }) {
+  const [newsletterStatus, setNewsletterStatus] = useState<"idle" | "sending" | "success" | "error">("idle");
+  const [newsletterMessage, setNewsletterMessage] = useState("");
   return (
     <footer className="site-footer">
       <div className="container">
@@ -78,12 +81,37 @@ export function Footer({
             <p>Receive a weekly word and prayer prompt in your inbox.</p>
             <form
               className="mini-signup"
-              onSubmit={(event) => {
+              onSubmit={async (event) => {
                 event.preventDefault();
-                const email = new FormData(event.currentTarget).get(
-                  "email",
-                ) as string;
-                window.location.href = `mailto:hello@letspray.ng?subject=Newsletter%20subscription&body=${encodeURIComponent(`Please add ${email} to the weekly word and prayer newsletter.`)}`;
+                const form = event.currentTarget;
+                const email = String(new FormData(form).get("email") ?? "").trim();
+                const supabaseUrl = import.meta.env.VITE_SUPABASE_URL?.replace(/\/$/, "");
+                const supabaseKey = import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY;
+                if (!supabaseUrl || !supabaseKey) {
+                  setNewsletterStatus("error");
+                  setNewsletterMessage("Newsletter signup is not configured yet.");
+                  return;
+                }
+                setNewsletterStatus("sending");
+                setNewsletterMessage("Submitting your signup…");
+                try {
+                  const response = await fetch(`${supabaseUrl}/functions/v1/newsletter-subscribe`, {
+                    method: "POST",
+                    headers: {
+                      "Content-Type": "application/json",
+                      apikey: supabaseKey,
+                      Authorization: `Bearer ${supabaseKey}`,
+                    },
+                    body: JSON.stringify({ email }),
+                  });
+                  if (!response.ok) throw new Error("Newsletter signup failed");
+                  setNewsletterStatus("success");
+                  setNewsletterMessage("Thanks for signing up. Check your inbox to confirm your subscription.");
+                  form.reset();
+                } catch {
+                  setNewsletterStatus("error");
+                  setNewsletterMessage("We could not submit your signup. Please try again later.");
+                }
               }}
             >
               <label className="sr-only" htmlFor="newsletter-email">
@@ -95,11 +123,13 @@ export function Footer({
                 type="email"
                 placeholder="Email address"
                 required
+                disabled={newsletterStatus === "sending"}
               />
               <button aria-label="Request subscription by email">→</button>
             </form>
-            <a className="footer-contact" href="mailto:hello@letspray.ng">
-              hello@letspray.ng
+            <p className="newsletter-status" role="status" aria-live="polite">{newsletterMessage}</p>
+            <a className="footer-contact" href="mailto:letspraymovement4@gmail.com">
+              letspraymovement4@gmail.com
             </a>
             <a
               className="text-button"
@@ -119,7 +149,7 @@ export function Footer({
           <button onClick={() => onContact("prayer")}>Prayer Requests</button>
           <a href="/#testimonies">Testimonies</a>
           <a href="/#give">Give</a>
-          <a href="mailto:hello@letspray.ng">Contact</a>
+          <a href="mailto:letspraymovement4@gmail.com">Contact</a>
         </nav>
         <div className="footer-bottom">
           <span>© 2026 Let’s Pray. All rights reserved.</span>

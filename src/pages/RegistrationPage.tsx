@@ -47,43 +47,55 @@ export function RegistrationPage() {
               if (status === "sending") return;
               const form = event.currentTarget;
               const data = new FormData(form);
-              const endpoint = import.meta.env.VITE_REGISTRATION_URL;
-              if (!endpoint) {
+              const supabaseUrl = import.meta.env.VITE_SUPABASE_URL?.replace(/\/$/, "");
+              const supabasePublishableKey = import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY;
+              if (!supabaseUrl || !supabasePublishableKey) {
                 setStatus("error");
-                setMessage("Online registration is not available yet. Please try again later.");
+                setMessage("Online registration is not configured yet. Please contact the team.");
                 return;
               }
               setStatus("sending");
               setMessage("Saving your registration…");
               try {
-                const response = await fetch(endpoint, {
+                const response = await fetch(`${supabaseUrl}/rest/v1/registrations`, {
                   method: "POST",
-                  headers: { "Content-Type": "text/plain;charset=utf-8" },
+                  headers: {
+                    "Content-Type": "application/json",
+                    apikey: supabasePublishableKey,
+                    Prefer: "return=minimal",
+                  },
                   body: JSON.stringify({
-                    ...Object.fromEntries(data),
-                    requestId,
+                    request_id: requestId,
+                    first_name: String(data.get("firstName") ?? "").trim(),
+                    last_name: String(data.get("lastName") ?? "").trim(),
+                    email: String(data.get("email") ?? "").trim().toLowerCase(),
+                    phone: String(data.get("phone") ?? "").trim(),
+                    location: String(data.get("location") ?? "").trim(),
+                    prayer_request: String(data.get("prayer") ?? "").trim(),
                     confidential: data.has("confidential"),
                     followup: data.has("followup"),
                   }),
                 });
-                const responseText = await response.text();
-                let result;
-                try {
-                  result = JSON.parse(responseText);
-                } catch {
+                if (!response.ok) {
+                  const errorBody = await response.json().catch(() => null) as { code?: unknown } | null;
+                  const errorCode = typeof errorBody?.code === "string" ? `, ${errorBody.code}` : "";
                   setStatus("error");
-                  setMessage("The registration service returned an unexpected response. Please contact the team. (deployment response)");
-                  return;
-                }
-                if (!response.ok || result?.ok !== true) {
-                  setStatus("error");
-                  setMessage(typeof result?.message === "string" ? result.message :
-                    "The registration service rejected the request. Please contact the team. (backend error)");
+                  if (response.status === 409) {
+                    setMessage("This email address is already registered. Please contact the team if you need help.");
+                  } else {
+                    const hint = response.status === 401
+                      ? "Check that the Supabase URL and publishable key belong to the same project."
+                      : response.status === 403
+                        ? "Check the table permissions and row level security policy in the setup SQL."
+                        : response.status === 404
+                          ? "Check that the registrations table exists and the Supabase Data API is enabled."
+                          : "Please check the form details and Supabase setup.";
+                    setMessage(`We could not save your registration (HTTP ${response.status}${errorCode}). ${hint}`);
+                  }
                   return;
                 }
                 setStatus("success");
-                setMessage("Your registration is confirmed. " +
-                  (result.email === "sent" ? "Your confirmation email has been sent." : "Your confirmation email could not be sent yet. Your registration is saved."));
+                setMessage("Your registration has been saved successfully. The team will follow up with event details.");
                 form.reset();
                 setRequestId(crypto.randomUUID());
                 successDialog.current?.showModal();
@@ -174,7 +186,7 @@ export function RegistrationPage() {
               {status === "sending" ? "Registering…" : "Register now"}
             </button>
             <p className="form-note" role="status">
-              {message || "Your registration will be saved and a confirmation sent to your email address."}
+              {message || "Your registration details will be saved securely."}
             </p>
           </form>
         </div>
