@@ -36,8 +36,31 @@ public/assets/      Original locally downloaded Figma images and SVGs
 
 The Figma file uses Tactic Sans Black Italic. A bold italic system fallback is used because the licensed font was unavailable. Typography is centralized in `src/index.css`.
 
-The IPC registration form writes to Supabase. Create a Supabase project, run `integrations/supabase-registration.sql` in its SQL Editor, and set `VITE_SUPABASE_URL` and `VITE_SUPABASE_PUBLISHABLE_KEY` in `.env.local` and the Vercel project environment variables. These client-side values are public; never put a Supabase secret or service-role key in the frontend. Row-level security permits anonymous inserts only, so public visitors cannot read or edit registration records. Registration confirmation emails need a separate email provider or server-side function. The newsletter form calls the `newsletter-subscribe` Supabase Edge Function, which adds new contacts to Mailchimp with pending status so they must confirm by email. Set the Supabase Function secrets `MAILCHIMP_API_KEY` and `MAILCHIMP_AUDIENCE_ID`, then deploy it with `supabase functions deploy newsletter-subscribe`. The Mailchimp API key stays server-side. Other contact actions open the email dialog.
+The IPC registration form writes to Supabase. Create a Supabase project, run `integrations/supabase-registration.sql` in its SQL Editor, and set `VITE_SUPABASE_URL` and `VITE_SUPABASE_PUBLISHABLE_KEY` in `.env.local` and the Vercel project environment variables. These client-side values are public; never put a Supabase secret or service-role key in the frontend. Row-level security permits anonymous inserts only, so public visitors cannot read or edit registration records. After a registration is saved, the app calls the `send-registration-confirmation` Supabase Edge Function to send a receipt through Brevo. The newsletter form calls the `newsletter-subscribe` Supabase Edge Function, which adds new contacts to Mailchimp with pending status so they must confirm by email. The Mailchimp API key stays server-side. Other contact actions open the email dialog.
 
-Flutterwave payments use `supabase/functions/verify-payment` to verify completed transactions. Set `FLUTTERWAVE_SECRET_KEY` as a Supabase Function secret, deploy with `supabase functions deploy verify-payment`, and set `VITE_PAYMENT_VERIFY_URL` to `https://<project-ref>.supabase.co/functions/v1/verify-payment` locally and in Vercel. Keep `VITE_FLUTTERWAVE_PUBLIC_KEY` as the Flutterwave public key. The Supabase publishable key and payment verification URL are public; the Flutterwave secret key must stay in Supabase Function secrets.
+To deploy the newsletter function, install the [Supabase CLI](https://supabase.com/docs/guides/cli), open a terminal in this project folder, then sign in and link the project:
+
+```sh
+supabase login
+supabase link --project-ref YOUR_PROJECT_REF
+```
+
+In the Supabase Dashboard, open **Edge Functions → Secrets** and add `MAILCHIMP_API_KEY` and `MAILCHIMP_AUDIENCE_ID`. Then deploy the function from the project folder:
+
+```sh
+supabase functions deploy newsletter-subscribe
+```
+
+The function is defined in `supabase/functions/newsletter-subscribe/index.ts`; deployment publishes it to your linked Supabase project.
+
+For IPC registration confirmation emails, verify a sender address or domain in Brevo, then add `BREVO_API_KEY`, `REGISTRATION_FROM_EMAIL` (the verified sender address), and optionally `REGISTRATION_FROM_NAME` to **Supabase Dashboard → Edge Functions → Secrets**. Deploy the function from this project folder:
+
+```sh
+npx supabase functions deploy send-registration-confirmation
+```
+
+The function is defined in `supabase/functions/send-registration-confirmation/index.ts`. The Brevo API key must remain a Supabase secret; do not add it to Vercel or a `VITE_` variable.
+
+Flutterwave payments use `supabase/functions/verify-payment` to verify completed transactions. Set the live `FLUTTERWAVE_SECRET_KEY` as a Supabase Function secret, then deploy with `npx supabase functions deploy verify-payment`. Set `VITE_PAYMENT_VERIFY_URL` to `https://<project-ref>.supabase.co/functions/v1/verify-payment` and `VITE_FLUTTERWAVE_PUBLIC_KEY` to the live Flutterwave public key in Vercel (and `.env.local` for local work). The verification function accepts public requests and checks each transaction server-side against Flutterwave; the secret key must stay in Supabase Function secrets.
 
 The countdown calculates the next Monday at 11 PM in West Africa Time (UTC+1), rather than retaining the expired example date from Figma.

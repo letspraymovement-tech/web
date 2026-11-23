@@ -32,7 +32,7 @@ export function RegistrationPage() {
             <h2>
               What to
               <br />
-              expect
+              {" "}expect
             </h2>
             <h3>Do I need to belong to a particular denomination?</h3>
             <p>
@@ -47,6 +47,9 @@ export function RegistrationPage() {
               if (status === "sending") return;
               const form = event.currentTarget;
               const data = new FormData(form);
+              const firstName = String(data.get("firstName") ?? "").trim();
+              const lastName = String(data.get("lastName") ?? "").trim();
+              const email = String(data.get("email") ?? "").trim().toLowerCase();
               const supabaseUrl = import.meta.env.VITE_SUPABASE_URL?.replace(/\/$/, "");
               const supabasePublishableKey = import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY;
               if (!supabaseUrl || !supabasePublishableKey) {
@@ -66,9 +69,9 @@ export function RegistrationPage() {
                   },
                   body: JSON.stringify({
                     request_id: requestId,
-                    first_name: String(data.get("firstName") ?? "").trim(),
-                    last_name: String(data.get("lastName") ?? "").trim(),
-                    email: String(data.get("email") ?? "").trim().toLowerCase(),
+                    first_name: firstName,
+                    last_name: lastName,
+                    email,
                     phone: String(data.get("phone") ?? "").trim(),
                     location: String(data.get("location") ?? "").trim(),
                     prayer_request: String(data.get("prayer") ?? "").trim(),
@@ -94,8 +97,25 @@ export function RegistrationPage() {
                   }
                   return;
                 }
+                let confirmationSent = false;
+                try {
+                  const emailResponse = await fetch(`${supabaseUrl}/functions/v1/send-registration-confirmation`, {
+                    method: "POST",
+                    headers: {
+                      "Content-Type": "application/json",
+                      apikey: supabasePublishableKey,
+                      Authorization: `Bearer ${supabasePublishableKey}`,
+                    },
+                    body: JSON.stringify({ firstName, email }),
+                  });
+                  confirmationSent = emailResponse.ok;
+                } catch {
+                  confirmationSent = false;
+                }
                 setStatus("success");
-                setMessage("Your registration has been saved successfully. The team will follow up with event details.");
+                setMessage(confirmationSent
+                  ? "Your registration was received. We sent a confirmation email with your registration details. If it is not in your inbox, check your spam or junk folder."
+                  : "Your registration was saved successfully, but we could not send the confirmation email. Please contact the team if you need confirmation.");
                 form.reset();
                 setRequestId(crypto.randomUUID());
                 successDialog.current?.showModal();

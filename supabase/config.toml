@@ -1,5 +1,8 @@
 [functions.verify-payment]
-verify_jwt = true
+verify_jwt = false
 
 [functions.newsletter-subscribe]
+verify_jwt = false
+
+[functions.send-registration-confirmation]
 verify_jwt = false

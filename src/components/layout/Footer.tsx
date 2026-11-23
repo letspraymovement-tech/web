@@ -106,7 +106,7 @@ export function Footer({
                   });
                   if (!response.ok) throw new Error("Newsletter signup failed");
                   setNewsletterStatus("success");
-                  setNewsletterMessage("Thanks for signing up. Check your inbox to confirm your subscription.");
+                  setNewsletterMessage("Thanks for signing up. Check your inbox to confirm your subscription. If you don't see the email, check your spam or junk folder.");
                   form.reset();
                 } catch {
                   setNewsletterStatus("error");
