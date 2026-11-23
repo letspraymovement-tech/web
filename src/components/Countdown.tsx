@@ -20,7 +20,7 @@ export function Countdown({ titleId }: { titleId: string }) {
     const id = window.setInterval(() => {
       const time = Date.now();
       setNow(time);
-      if (time >= target.getTime()) setTarget(nextMonday());
+      if (time >= target.getTime()) setTarget(nextMeeting(new Date(time)));
     }, 1000);
     return () => window.clearInterval(id);
   }, [target]);
